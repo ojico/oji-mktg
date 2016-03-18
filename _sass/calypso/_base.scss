@@ -1,0 +1,180 @@
+/**
+ * Reset some basic elements
+ */
+body, p, ul, ol, li, em, strong,
+h1, h2, h3, h4, h5, h6, blockquote, 
+hr, dl, dd, figure, input, textarea, 
+button {
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/**
+ * Basic styling
+ */
+body {
+    @extend %kerning;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Atlas Grotesk', 'Helvetica Neue', Arial;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+* {
+    @include box-sizing(border-box);
+}
+
+/**
+ * Fonts
+ */
+
+$font-path: /assets/fonts;
+
+@font-face {
+  font-family: 'Atlas Grotesk';
+  src: url('#{$font-path}/AtlasGrotesk-Bold-Web.eot');
+  src: url('#{$font-path}/AtlasGrotesk-Bold-Web.eot?#iefix') format('embedded-opentype'),
+     url('#{$font-path}/AtlasGrotesk-Bold-Web.woff') format('woff');
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+.AtlasGrotesk-Bold {
+  font-family: 'Atlas Grotesk';
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Atlas Grotesk';
+  src: url('#{$font-path}/AtlasGrotesk-Regular-Web.eot');
+  src: url('#{$font-path}/AtlasGrotesk-Regular-Web.eot?#iefix') format('embedded-opentype'),
+     url('#{$font-path}/AtlasGrotesk-Regular-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+.AtlasGrotesk-Regular {
+  font-family: 'Atlas Grotesk Web';
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Atlas Grotesk';
+  src: url('#{$font-path}/AtlasGrotesk-Light-Web.eot');
+  src: url('#{$font-path}/AtlasGrotesk-Light-Web.eot?#iefix') format('embedded-opentype'),
+     url('#{$font-path}/AtlasGrotesk-Light-Web.woff') format('woff');
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+.AtlasGrotesk-Light {
+  font-family: 'Atlas Grotesk';
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+$golden:          1.618;
+$full:            100%;
+
+$gld10:           $full / $golden;
+$gld9:            $full - $gld10;
+$gld8:            $gld9 / $golden;
+$gld7:            $gld9 - $gld8;
+$gld6:            $gld7 / $golden;
+$gld5:            $gld7 - $gld6;
+$gld4:            $gld5 / $golden;
+$gld3:            $gld5 - $gld4;
+$gld2:            $gld3 / $golden;
+$gld1:            $gld3 - $gld2;
+
+$xlarge:          $full - ($gld7 + $gld7);
+$large:           $gld10;
+$med:             $gld9;
+$small:           $gld8;
+$xsmall:          $gld7;
+
+$base: 24px;
+
+$on-touch:           800px;
+$on-laptop:         1000px;
+$on-desktop:        1600px;
+
+
+a {
+    text-decoration: none;
+
+    &:visited {
+        color: blue;
+    }
+}
+
+em {
+    font-style: normal;
+}
+
+.text {
+
+    @include media-query($on-touch) {
+    }
+}
+
+h1, .text--1 {
+    font-size: $base*2;
+    font-weight: 300;
+    line-height: 54px;
+}
+
+h2, .text--h2 {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 52px;
+
+    @include media-query($on-touch) {
+        font-size: 30px;
+        line-height: 36px;
+    }
+}
+
+h3, .text--h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+
+    strong {
+        font-weight: 700;
+    }
+
+    @include media-query($on-touch) {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+h4, .h4 {
+	font-size: 10px;
+    font-weight: 500;
+	text-transform: uppercase;
+}
+
+h5, .h5 {
+    font-size: 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.pull--right {
+	float: right;
+}
+

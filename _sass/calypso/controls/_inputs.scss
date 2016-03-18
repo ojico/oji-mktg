@@ -1,0 +1,21 @@
+.input {
+	@include appearance(none);
+    @extend .text--h3;
+    background-color: transparent;
+    border: 0;
+    border-bottom: solid 2px white;
+    border-radius: 0;
+    color: white;
+    line-height: $base*2;
+    margin: 0;
+    padding: 0;
+    width: $base*14;
+
+    @include placeholder {
+        color: white;
+    }
+
+    &:focus {
+    	outline: 0;
+    }
+}

@@ -1,0 +1,23 @@
+.button {
+	@include appearance(none);
+    background-color: #003DA5;
+    border: 0;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Helvetica Neue', Arial;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    padding: $base/2 $base;
+    text-transform: uppercase;
+
+    &.button--submit {
+    	background-color: #e8291c;
+    	background-image: url(/assets/btn--accent.svg);
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    }
+}

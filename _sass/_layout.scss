@@ -1,5 +1,33 @@
 $margin: 30px;
 
+.guides {
+	display: none;
+	border: solid 1px lime;
+	bottom: $base;
+	left: $base;
+	position: absolute;
+	right: $base;
+	top: $base;
+	z-index: 99999999;
+
+	.guides__nw,
+	.guides__se {
+		border: solid 1px cyan;
+		height: 50%;
+		position: absolute;
+		width: 50%;
+	}
+
+	.guides__nw {
+		left: 0;
+		top: 0;
+	}
+	.guides__se {
+		bottom: 0;
+		right: 0;
+	}
+}
+
 .oji-mktg {
 	min-height: $full;
 

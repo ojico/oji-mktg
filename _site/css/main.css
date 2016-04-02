@@ -249,6 +249,28 @@ article .text--link {
   .input:focus {
     outline: 0; }
 
+.guides {
+  display: none;
+  border: solid 1px lime;
+  bottom: 24px;
+  left: 24px;
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  z-index: 99999999; }
+  .guides .guides__nw,
+  .guides .guides__se {
+    border: solid 1px cyan;
+    height: 50%;
+    position: absolute;
+    width: 50%; }
+  .guides .guides__nw {
+    left: 0;
+    top: 0; }
+  .guides .guides__se {
+    bottom: 0;
+    right: 0; }
+
 .oji-mktg {
   min-height: 100%; }
   .oji-mktg.visible--feed {

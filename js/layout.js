@@ -8,4 +8,7 @@ $(document).ready(function(){
 	$('.toggle--feed').click(function(){
 		$('body').toggleClass('visible--feed');
 	});
+	$('.mark').click(function(){
+		$(this).toggleClass('animate');
+	});
 });

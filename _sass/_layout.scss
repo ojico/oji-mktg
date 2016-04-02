@@ -1,0 +1,273 @@
+$margin: 30px;
+
+.oji-mktg {
+	min-height: $full;
+
+	&.visible--feed {
+		overflow: none;
+
+		.section--feed {
+			@include transitionEase(transform, 0.5s);
+			@include translate(0,$base*4);
+			transition-delay: 0.5s;
+			overflow-y: scroll;
+		}
+		.context__header {
+			@include transitionEase(transform, 0.3s);
+			@include translate(0, 0);
+			transition-delay: 0.7s;
+		}
+		.col--left {
+			@include transitionEase(width, 0.5s);
+			width: $large;
+		}
+		.col--right {
+			@include transitionEase(width, 0.5s);
+			width: $med;
+		}
+	}
+}
+
+.mark {
+	color: white;
+	display: block;
+	padding: $margin;
+	position: absolute;
+	z-index: 10000;
+
+	&.animate {
+		span {
+			&.mark__j {
+				@include animation(markRotate 1.5s infinite reverse);
+			}
+			&.mark__i {
+				@include animation(markRotate 1s infinite);
+			}
+		}
+	}
+
+	span {
+		box-sizing: content-box;
+		background-color: transparent;
+		border: solid 2px red;
+		border-radius: 50%;
+		position: absolute;
+
+		&::after {
+			content:'';
+			height: 20px;
+			position: absolute;
+		}
+	
+		&.mark__o {
+			height: 30px;
+			width: 30px;
+		}
+		&.mark__j {
+			@include rotate(120);
+			height: 20px;
+			margin: 5px;
+			width: 20px;
+
+			&::after {
+				background-color: #111;
+				border-radius: 13px 0 0 0;
+				height: 13px;
+				left: -3px;
+				top: -3px;
+				width: 13px;
+			}
+		}
+		&.mark__i {
+			@include rotate(-30);
+			height: 10px;
+			margin: 10px;
+			width: 10px;
+
+			&::after {
+				background-color: #111;
+				border-radius: 14px 0 0 14px;
+				height: 14px;
+				left: -2px;
+				top: -2px;
+				width: 7px;
+			}
+		}
+	}
+}
+
+.context__header {
+	@include transitionEase(transform, 0.3s);
+	@include translate(0, $base*-4);
+	height: $base*4;
+	left: 0;
+	position: absolute;
+	width: $large;
+	z-index: 9000;
+
+	.context__title {
+		color: white;
+		display: block;
+		line-height: $base*2;
+		padding: $base $base $base 72px;
+	}
+	.context__toggle {
+		height: $base*4;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: $base*4;
+
+		span {
+			background-color: white;
+			height: 2px;
+			left: 30px;
+			position: absolute;
+			top: 47px;
+			width: 36px;
+
+			&.icn__alpha {
+				@include rotate(45);
+			}
+			&.icn__beta{
+				@include rotate(-45);
+			}
+		}
+	}
+}
+
+.section--hero {
+	height: $full;
+	position: absolute;
+	width: $full;
+
+	.col {
+		@include transitionEase(width, 0.5s);
+		transition-delay: 0.5s;
+		bottom: 0;
+		height: $full;
+		position: absolute;
+		top: 0;
+	}
+
+	.col--left {
+		left: 0;
+		width: 50%;
+
+		.header {
+			background-color: #111;
+			height: 50%;
+			position: relative;
+
+			article {
+				bottom: 0;
+				color: white;
+				padding: $base*2;
+				position: absolute;
+				width: 480px;
+
+				a {
+					color: white;
+				}
+			}
+		}
+
+		.feature--feed {
+			background-color: #CCC;
+			height: 50%;
+
+			article {
+				padding: $base*2;
+				width: 480px;
+			}
+		}
+	}
+
+	.col--right {
+		right: 0;
+		width: 50%;
+
+		.navigation {
+			height: $med;
+
+			.menu {
+				display: none;
+				padding: $margin;
+
+				a {
+					color: black;
+				}
+			}
+
+			.social {
+				@extend %clearfix;
+				padding: $base;
+
+				> li {
+					float: left;
+					margin: 8px;
+					margin-left: 0;
+				}
+				.social__icn {
+					border: solid 2px black;
+					border-radius: 50%;
+					display: block;
+					font-weight: 600;
+					height: 32px;
+					line-height: 27px;
+					text-align: center;
+					text-indent:-9999em;
+					width: 32px;
+				}
+			}
+
+			.context__user {
+				padding: $margin;
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+		}
+
+		.feature--logbook {
+			background-color: #CCC;
+			background-image: url(/assets/feature--logbook.jpg);
+			background-position: left top;
+			background-size: cover;
+			height: $large;
+
+			.feature__label {
+				display: block;
+				padding: $base;
+			}
+		}
+	}
+}
+
+.section--feed {
+	@include transitionEase(transform, 0.5s);
+	@include translate(0,$full);
+	background-color: #DDD;
+	bottom: 0;
+	left: 0;
+	padding-bottom: $base*4;
+	position: absolute;
+	top: 0;
+	width: $large;
+	z-index: 1000;
+
+	article {
+		border-bottom: solid 1px #CCC;
+		padding: $base $base $base $base*4;
+
+		a {
+			color: #222;
+			display: block;
+			margin-bottom: 10px;
+		}
+		.link__meta {
+			color: #222;
+			opacity: 0.4;
+		}
+	}
+}

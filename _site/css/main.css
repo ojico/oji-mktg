@@ -272,44 +272,43 @@ article .text--link {
     right: 0; }
 
 .oji-mktg {
-  min-height: 100%; }
-  .oji-mktg.visible--feed {
-    overflow: hidden; }
-    .oji-mktg.visible--feed .section--feed {
-      -webkit-transition: transform 0.5s ease-in-out;
-      -moz-transition: transform 0.5s ease-in-out;
-      -o-transition: transform 0.5s ease-in-out;
-      transition: transform 0.5s ease-in-out;
-      -moz-transform: translate(0, 96px);
-      -o-transform: translate(0, 96px);
-      -ms-transform: translate(0, 96px);
-      -webkit-transform: translate(0, 96px);
-      transform: translate(0, 96px);
-      transition-delay: 0.5s;
-      overflow-y: scroll; }
-    .oji-mktg.visible--feed .context__header {
-      -webkit-transition: transform 0.3s ease-in-out;
-      -moz-transition: transform 0.3s ease-in-out;
-      -o-transition: transform 0.3s ease-in-out;
-      transition: transform 0.3s ease-in-out;
-      -moz-transform: translate(0, 0);
-      -o-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-      -webkit-transform: translate(0, 0);
-      transform: translate(0, 0);
-      transition-delay: 0.7s; }
-    .oji-mktg.visible--feed .col--left {
-      -webkit-transition: width 0.5s ease-in-out;
-      -moz-transition: width 0.5s ease-in-out;
-      -o-transition: width 0.5s ease-in-out;
-      transition: width 0.5s ease-in-out;
-      width: 61.8047%; }
-    .oji-mktg.visible--feed .col--right {
-      -webkit-transition: width 0.5s ease-in-out;
-      -moz-transition: width 0.5s ease-in-out;
-      -o-transition: width 0.5s ease-in-out;
-      transition: width 0.5s ease-in-out;
-      width: 38.1953%; }
+  min-height: 100%;
+  overflow: hidden; }
+  .oji-mktg.visible--feed .section--feed {
+    -webkit-transition: transform 0.5s ease-in-out;
+    -moz-transition: transform 0.5s ease-in-out;
+    -o-transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+    -moz-transform: translate(0, 96px);
+    -o-transform: translate(0, 96px);
+    -ms-transform: translate(0, 96px);
+    -webkit-transform: translate(0, 96px);
+    transform: translate(0, 96px);
+    transition-delay: 0.5s;
+    overflow-y: scroll; }
+  .oji-mktg.visible--feed .context__header {
+    -webkit-transition: transform 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    -moz-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    transition-delay: 0.7s; }
+  .oji-mktg.visible--feed .col--left {
+    -webkit-transition: width 0.5s ease-in-out;
+    -moz-transition: width 0.5s ease-in-out;
+    -o-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    width: 61.8047%; }
+  .oji-mktg.visible--feed .col--right {
+    -webkit-transition: width 0.5s ease-in-out;
+    -moz-transition: width 0.5s ease-in-out;
+    -o-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    width: 38.1953%; }
 
 .mark {
   color: white;

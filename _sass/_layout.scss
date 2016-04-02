@@ -30,9 +30,9 @@ $margin: 30px;
 
 .oji-mktg {
 	min-height: $full;
+	overflow: hidden;
 
 	&.visible--feed {
-		overflow: hidden;
 
 		.section--feed {
 			@include transitionEase(transform, 0.5s);

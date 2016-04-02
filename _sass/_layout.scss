@@ -4,7 +4,7 @@ $margin: 30px;
 	min-height: $full;
 
 	&.visible--feed {
-		overflow: none;
+		overflow: hidden;
 
 		.section--feed {
 			@include transitionEase(transform, 0.5s);

@@ -252,7 +252,7 @@ article .text--link {
 .oji-mktg {
   min-height: 100%; }
   .oji-mktg.visible--feed {
-    overflow: none; }
+    overflow: hidden; }
     .oji-mktg.visible--feed .section--feed {
       -webkit-transition: transform 0.5s ease-in-out;
       -moz-transition: transform 0.5s ease-in-out;

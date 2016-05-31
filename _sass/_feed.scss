@@ -1,0 +1,63 @@
+.oji-feed {
+	background-color: $white;
+	overflow: hidden;
+
+	&.visible--feed {
+
+		.container {
+			overflow-y: scroll;
+
+			.feed {
+				.feed__entries {
+					@include transitionEase(all,0.5s);
+					@include translate(0,0);
+				}
+			}
+		}
+		.frame--w {
+			background-color: lime;
+		}
+	}
+}
+
+.container {
+	overflow-y: visible;
+
+	.feed {
+		bottom: 0;
+		left: 0;
+		min-height: $full;
+		position: absolute;
+		right: calc(100%/10 - 12px);
+		top: 0;
+
+		.feed__entries {
+			@include transitionEase(all,0.5s);
+			@include translate(0,50%);
+			padding: 0 $full/9*3 0 $full/9;
+
+			.feed__entry {
+				cursor: pointer;
+				display: block;
+				margin-bottom: 1px;
+				padding: $base 0;
+				position: relative;
+				z-index: 1000;
+
+				&::after {
+					content: '';
+					height: $full;
+					left: -$base/2;
+					position: absolute;
+					top: 0;
+					width: $base/2;
+				}
+
+				.entry__title {
+					margin-bottom: 0px;
+					margin-left: -1px;
+				}
+			}
+		}
+	}
+}

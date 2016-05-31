@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html style="height:100%;">
+
+    {% include head.html %}
+
+    <body class="oji-feed visible--{{ page.visible }}">
+
+    	{% include header.html %}
+
+    	<aside class="sidebar sidebar--left">
+            {% include section-hero.html %}
+            {% include section-feed.html %}
+    	</aside>
+
+    	<div class="container">
+            {{ content}}   
+        </div>
+
+        <span class="frame frame--w"></span>
+
+        <aside class="sidebar sidebar--right">
+            {% include section-signup.html %}
+            {% include section-feature.html %}
+    	</aside>
+
+        {% include guides.html %}
+	    
+    </body>
+
+</html>

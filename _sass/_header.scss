@@ -1,0 +1,140 @@
+.visible--feed {
+	.header {
+		.header__oji {
+			@include transitionEase(all, 0.4s);
+			@include translate(0,-$base*8);
+
+			svg {
+				path {
+				}
+			}
+		}
+	}
+}
+
+.header {
+	@include flexbox();
+	@include align-content(flex-start);
+	@include align-items(flex-start);
+	@include flex-flow(row wrap);
+	@include justify-content(flex-start);
+	background-color: red;
+	height: 0;
+	position: absolute;
+	top: 0;
+	width: $full/10*7;
+	z-index: 5000;	
+
+	.header__oji {
+		@include transitionEase(all, 0.5s);
+		@include translate(0,0);
+		//background-image: url(/assets/images/oji-origami.svg);
+		background-repeat: no-repeat;
+		background-size: $base*5 auto;
+		height: $base*4;
+		left: $full/7;
+		position: absolute;
+		top: 85px;
+		width: $full/7;
+		z-index: 1100;
+
+		svg {
+			path {
+				fill: $white; 
+			}
+		}
+	}
+
+	.header__section {
+		background-color: purple;
+		min-height: $base*2;
+
+		> .section__label {
+			background-color: violet;
+		}
+
+		&.header__title {
+			height: $base*2;
+			overflow: visible;
+			width: $full/7;
+
+			> .section__label {
+				white-space: nowrap;
+				word-break: none;
+			}
+		}
+		&.header__about {
+			width: $full/7*2;
+		}
+		&.header__banner {
+			width: $full/7*2;
+		}
+		&.header__social {
+			width: $full/7;
+
+			.social__wrapper {
+				@include flexbox();
+				@include align-content(flex-start);
+				@include align-items(flex-start);
+				@include flex-flow(row nowrap);
+				@include justify-content(flex-start);
+				@include translate(-2px,0);
+				padding: 54px $base/2 0 $base/2;
+
+				.social__badge {
+					background-color: violet;
+					display: block;
+					height: $base;
+					margin-right: $base/2;
+					width: $base;
+
+					&.icn--facebook {
+						@include scale(1.2);
+					}
+
+					svg {
+						height: auto;
+						width: $full;
+
+						path,
+						circle {
+							fill: $white; 
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&[data-theme="light"] {
+		background-color: red;
+
+		.frame,
+		.corner {
+			border-color: $white;
+		}
+
+		.header__section {
+			background-color: transparent;
+	
+			> .section__label {
+				background-color: transparent;
+				color: $white;
+
+				&::before {
+					border-color: $white;
+				}
+			}
+
+			&.header__social {	
+				.social__wrapper {
+					.social__badge {
+						background-color: transparent;
+					}
+				}
+			}
+		}
+
+
+	}
+}

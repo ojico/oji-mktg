@@ -1,0 +1,31 @@
+.visible--feed {
+	.sidebar {
+		@include transitionEase(0.5s,all);
+
+		&.sidebar--left {
+			@include translate(0,-$full);
+		}
+		&.sidebar--right {
+			@include translate(0,0);
+		}
+	}
+}
+
+.sidebar {
+	@include transitionEase(0.5s,all);
+	bottom: 0;
+	position: absolute;
+	top: 0;
+	z-index: 2000;
+
+	&.sidebar--left {
+		@include translate(0,0);
+		left: 0;
+		width: $full*7/10;
+	}
+	&.sidebar--right {
+		opacity: 1;
+		right: 0;
+		width: $full*3/10;
+	}
+}

@@ -1,0 +1,113 @@
+$btn--height: $base*2;
+
+.btn {
+    @extend %AtlasGrotesk-Regular;
+    @include box-sizing(border-box);
+	@include appearance(none);
+    //@include box-shadow(0,3px,12px,rgba(0,0,0,0.15),$inset:false);
+    background-color: $blue;
+    border: 0;
+    border-radius: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+
+    &.btn--accent {
+        &::after {
+            background-image: url(/assets/images/btn__accent.png);
+            background-position: center;
+            background-size: 100% 100%;
+            bottom: 0;
+            content:'';
+            left: 0;
+            pointer-events: none;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+
+    .btn__label {
+        color: white;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: $btn--height/2;
+        padding: $base/2 $base;
+        pointer-events: none;
+        text-transform: uppercase;
+    }
+
+    .btn__i {
+        cursor: pointer;
+        height: $base*2;
+        left: 0;
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        width: $base*2;
+
+        &[data-size="small"] {
+            height: $btn--height/2;
+            width: $btn--height/2;
+        }
+
+        & + .btn__label {
+            padding-left: $base/2;
+        }
+    }
+
+    &.btn--toggle {
+        @include box-sizing(content-box);
+        height: $btn--height;
+        width: $btn--height;
+
+        &[data-size="small"] {
+            height: $btn--height/2;
+            width: $btn--height/2;
+        }
+    }
+
+    &[data-style="primary"] {
+        background-color: $green;
+
+        .btn__label {
+            color: $white;
+        }
+        .btn__icn {
+            i {
+                border-color: $white;
+            }
+        }
+    }
+    &[data-style="alert"] {
+        background-color: gold;
+
+        .btn__label {
+            color: red;
+        }
+        .btn__icn {
+            i {
+                border-color: red;
+            }
+        }
+    }
+    &[data-style="outline-light"] {
+        background-color: transparent;
+        border: solid 1px $white;
+
+        .btn__label {
+            color: $white;
+        }
+        .btn__icn {
+            i {
+                border-color: $white;
+            }
+        }
+    }
+
+    &:focus {
+        outline: 0;
+    }
+}

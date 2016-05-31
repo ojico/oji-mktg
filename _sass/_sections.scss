@@ -1,0 +1,125 @@
+.visible--feed {
+	.section {
+		&.section--hero {
+			@include transitionEase(all, 0.5s);
+		}
+		&.section--feed {
+			@include transitionEase(all, 0.5s);
+
+			.toggle--feed {
+				@include transitionEase(all, 0.5s);
+				@include translate(0,$base*11.5);
+			}
+			.feed__label {
+				@include transitionEase(all, 0.5s);
+				@include translate(0,$base*4);
+				transition-delay: 0.3s;
+				opacity: 1;
+			}
+		}
+	}
+}
+.visible--hero {
+	.hero__img {
+		@include transitionEase(all, 0.5s);
+		@include translate(0,$base*10);
+	}
+}
+
+.hero__img {
+	@include transitionEase(all, 0.5s);
+	background-color: $orange;
+	background-image: url(/assets/images/hero-alpine.jpg);
+	background-position: center bottom;
+	background-size: cover;
+	bottom: $base*10;
+	left: $base*2;
+	position: absolute;
+	right: 0;
+	top: $base*5;
+	z-index: 1000;
+}
+
+.section {
+	&.section--hero {
+		@include transitionEase(all, 0.5s);
+		height: $large;
+		position: relative;
+		top: 0;
+
+		.toggle--hero {
+			left: $full/7*3;
+			position: absolute;
+			top: 76px;
+		}
+	}
+	&.section--feed {
+		@include transitionEase(all, 0.5s);
+		height: $med;
+		top: $large;
+
+		.section__label {
+			@include translate(0,-$base*4);
+			bottom: $base;
+			left: $base*4;
+			line-height: $base*2;
+			opacity: 0;
+			position: absolute;
+			width: $large;
+		}
+
+		.section__text {
+			background-color: $aqua;
+			bottom: $base*5;
+			color: $blue;
+			height: $base*4;
+			left: $full/7;
+			position: absolute;
+			width: $full/7*5;
+			z-index: 1500;
+
+			.text--h2 {
+			}
+
+			.border {
+				span {
+					border: solid 1px red;
+					display: inline-block;
+					height: $base/2;
+					width: $base/2;
+				}
+			}
+		}
+
+		.toggle--feed {
+			@include transitionEase(all, 0.5s);
+			@include translate(0,0);
+			bottom: $base*9;
+			opacity: 1;
+			margin: 0;
+			position: absolute;
+			right: $base/2;
+			z-index: 9000;
+		}
+	}
+
+	&.section--signup {
+		height: 50%;
+		overflow: hidden;
+		top: 0;
+	}
+	&.section--feature {
+		background-image: url(/assets/images/feature--scuba.jpg);
+		background-position: right bottom;
+		background-size: cover;
+		height: 50%;
+		top: 50%;
+	}
+}
+
+@include keyframes(zoom) {
+	0% {
+	}
+	100% {
+	}
+}

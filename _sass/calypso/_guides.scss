@@ -1,0 +1,105 @@
+.guides,
+.columns {
+	display: none;
+}
+
+.guides {
+	bottom: 0;
+	left: 0;
+	pointer-events: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 99999999;
+
+	.guides__inner {
+		bottom: $base;
+		left: $base;
+		outline: solid 1px red;
+		position: absolute;
+		right: $base;
+		top: $base;
+	}
+
+	.guides__inner--half {
+		bottom: $base/2;
+		left: $base/2;
+		outline: solid 1px yellow;
+		position: absolute;
+		right: $base/2;
+		top: $base/2;
+	}
+
+	.guide__x,
+	.guide__y {
+		background-color: cyan;
+		position: absolute;
+	}
+
+	.guide__x {
+		height: 1px;
+		left: 0;
+		right: 0;
+		width: $full;
+
+		&.guide__x--centre {
+			top: 50%;
+		}
+		&.guide__x--header {
+			top: 87px;
+		}
+	}
+
+	.guide__y {
+		bottom: 0;
+		height: $full;
+		top: 0;
+		width: 1px;
+
+		&.guide__y--left {
+			left: $base;
+		}
+		&.guide__y--centre {
+			left: 50%;
+		}
+		&.guide__y--right {
+			right: $base;
+		}
+	}
+
+	.guides__nw,
+	.guides__se {
+		height: 50%;
+		outline: solid 1px cyan;
+		position: absolute;
+		width: 50%;
+	}
+
+	.guides__nw {
+		left: 0;
+		top: 0;
+	}
+	.guides__se {
+		bottom: 0;
+		right: 0;
+	}
+}
+
+.columns {
+	@extend %clearfix;
+	bottom: 0;
+	left: 0;
+	pointer-events: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 99999999;
+
+	.col {
+		border-left: solid $base/2 rgba(0,255,0,0.3);
+		border-right: solid $base/2 rgba(0,0,255,0.3);
+		float: left;
+		height: $full;
+		width: $full/10;
+	}
+}

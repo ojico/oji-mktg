@@ -10,7 +10,6 @@ button {
     margin: 0;
     padding: 0;
 }
-
 ul, ol {
     list-style: none;
 }
@@ -18,16 +17,6 @@ ul, ol {
 /**
  * Basic styling
  */
-body {
-    @extend %kerning;
-    -webkit-text-size-adjust: 100%;
-    font-family: 'Atlas Grotesk', 'Helvetica Neue', Arial;
-    font-weight: 400;
-    font-size: 12px;
-    letter-spacing: 0.05em;
-    line-height: 18px;
-}
-
 * {
     @include box-sizing(border-box);
 }
@@ -35,56 +24,74 @@ body {
 /**
  * Fonts
  */
-
 $font-path: /assets/fonts;
 
 @font-face {
-  font-family: 'Atlas Grotesk';
-  src: url('#{$font-path}/AtlasGrotesk-Bold-Web.eot');
-  src: url('#{$font-path}/AtlasGrotesk-Bold-Web.eot?#iefix') format('embedded-opentype'),
-     url('#{$font-path}/AtlasGrotesk-Bold-Web.woff') format('woff');
-  font-weight:  700;
-  font-style:   normal;
-  font-stretch: normal;
+    font-family: 'Atlas Grotesk';
+    src: url('#{$font-path}/AtlasGrotesk-Bold-Web.eot');
+    src: url('#{$font-path}/AtlasGrotesk-Bold-Web.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-path}/AtlasGrotesk-Bold-Web.woff') format('woff');
+    font-weight:  700;
+    font-style:   normal;
+    font-stretch: normal;
 }
-.AtlasGrotesk-Bold {
-  font-family: 'Atlas Grotesk';
-  font-weight:  700;
-  font-style:   normal;
-  font-stretch: normal;
+%AtlasGrotesk-Bold {
+    font-family: 'Atlas Grotesk';
+    font-weight:  700;
+    font-style:   normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'Atlas Grotesk';
+    src: url('#{$font-path}/AtlasGrotesk-Regular-Web.eot');
+    src: url('#{$font-path}/AtlasGrotesk-Regular-Web.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-path}/AtlasGrotesk-Regular-Web.woff') format('woff');
+    font-weight:  400;
+    font-style:   normal;
+    font-stretch: normal;
+}
+%AtlasGrotesk-Regular {
+    font-family: 'Atlas Grotesk';
+    font-weight:  400;
+    font-style:   normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'Atlas Grotesk';
+    src: url('#{$font-path}/AtlasGrotesk-Light-Web.eot');
+    src: url('#{$font-path}/AtlasGrotesk-Light-Web.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-path}/AtlasGrotesk-Light-Web.woff') format('woff');
+    font-weight:  300;
+    font-style:   normal;
+    font-stretch: normal;
+}
+%AtlasGrotesk-Light {
+    font-family: 'Atlas Grotesk';
+    font-weight:  300;
+    font-style:   normal;
+    font-stretch: normal;
 }
 
 @font-face {
-  font-family: 'Atlas Grotesk';
-  src: url('#{$font-path}/AtlasGrotesk-Regular-Web.eot');
-  src: url('#{$font-path}/AtlasGrotesk-Regular-Web.eot?#iefix') format('embedded-opentype'),
-     url('#{$font-path}/AtlasGrotesk-Regular-Web.woff') format('woff');
-  font-weight:  400;
-  font-style:   normal;
-  font-stretch: normal;
+    font-family: 'Origami-Regular';
+    src: url('#{$font-path}/310885_1_0.eot');
+    src: url('#{$font-path}/310885_1_0.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-path}/310885_1_0.woff2') format('woff2'),
+         url('#{$font-path}/310885_1_0.woff') format('woff'),
+         url('#{$font-path}/310885_1_0.ttf') format('truetype');
 }
-.AtlasGrotesk-Regular {
-  font-family: 'Atlas Grotesk Web';
-  font-weight:  400;
-  font-style:   normal;
-  font-stretch: normal;
+@font-face {
+    font-family: 'Origami-SemiBold';
+    src: url('#{$font-path}/310885_0_0.eot');
+    src: url('#{$font-path}/310885_0_0.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-path}/310885_0_0.woff2') format('woff2'),
+         url('#{$font-path}/310885_0_0.woff') format('woff'),
+         url('#{$font-path}/310885_0_0.ttf') format('truetype');
 }
 
-@font-face {
-  font-family: 'Atlas Grotesk';
-  src: url('#{$font-path}/AtlasGrotesk-Light-Web.eot');
-  src: url('#{$font-path}/AtlasGrotesk-Light-Web.eot?#iefix') format('embedded-opentype'),
-     url('#{$font-path}/AtlasGrotesk-Light-Web.woff') format('woff');
-  font-weight:  300;
-  font-style:   normal;
-  font-stretch: normal;
-}
-.AtlasGrotesk-Light {
-  font-family: 'Atlas Grotesk';
-  font-weight:  300;
-  font-style:   normal;
-  font-stretch: normal;
-}
+/**
+ * Layout helpers
+ */
 
 $golden:          1.618;
 $full:            100%;
@@ -108,16 +115,27 @@ $xsmall:          $gld7;
 
 $base: 24px;
 
-$on-touch:           800px;
-$on-laptop:         1000px;
-$on-desktop:        1600px;
+$on-touch:         800px;
+$on-laptop:       1000px;
+$on-desktop:      1600px;
 
+/**
+ * Typography
+ */
+body {
+    @extend %kerning;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Atlas Grotesk', 'Helvetica Neue', Arial;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
 
 a {
     text-decoration: none;
 
     &:visited {
-        color: blue;
+        color: initial;
     }
 }
 
@@ -125,27 +143,44 @@ em {
     font-style: normal;
 }
 
-.text {
+.serif {
+    font-family: 'Origami-Regular', Garamond;
 
     @include media-query($on-touch) {
+    }
+}
+
+.text {
+    font-size: 12px;
+    line-height: 18px;
+
+    &.serif {
+
     }
 }
 
 h1, .text--h1 {
     font-size: $base*2;
     font-weight: 300;
-    letter-spacing: 0.05em;
+    letter-spacing: -0.02em;
     line-height: 54px;
 }
 
 h2, .text--h2 {
     font-size: 24px;
-    font-weight: 500;
-    letter-spacing: 0.01em;
+    font-weight: 300;
     line-height: 32px;
 
     strong {
-        font-weight: 700;
+        font-weight: 500;
+    }
+    .small {
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    .serif,
+    &.serif {
+        font-size: 30px;
     }
 
     @include media-query($on-touch) {
@@ -155,12 +190,16 @@ h2, .text--h2 {
 }
 
 h3, .text--h3 {
-    font-size: 16px;
+    font-size: $base*1.5;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 40px;
 
     strong {
-        font-weight: 700;
+        font-weight: 500;
+    }
+
+    &.serif {
+        font-weight: 300;
     }
 
     @include media-query($on-touch) {
@@ -176,9 +215,14 @@ h4, .text--h4 {
     text-transform: uppercase;
 }
 
-h5, .h5 {
+h5, .text--h5 {
     font-size: 10px;
-    font-weight: 400;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    .serif {
+        font-size: 14px;
+    }
 }
 
 article {

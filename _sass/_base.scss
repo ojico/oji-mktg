@@ -1,0 +1,162 @@
+$frame-corner-margin: $base/2;
+
+.section {
+	position: absolute;
+	width: $full;
+
+	&.section--center {
+		@include flexbox();
+		@include align-content(center);
+		@include align-items(center);
+		@include flex-flow(column nowrap);
+		@include justify-content(center);
+
+		.section__label {
+			left: 0;
+			position: absolute;
+			text-align: center;
+			top: 0;
+			width: $full;
+		}
+		.section__text {
+			text-align: center;
+			margin: $base/2;
+			padding: 0 $base;
+		}
+		.btn {
+			margin-bottom: $base/2;
+		}
+	}
+
+	&.section--left {
+		@include flexbox();
+		@include align-content(flex-start);
+		@include align-items(center);
+		@include flex-flow(column nowrap);
+		@include justify-content(flex-start);
+
+		.section__label {
+			left: 0;
+			position: absolute;
+			text-align: center;
+			top: 0;
+			width: $full;
+		}
+		.section__text {
+			text-align: left;
+			padding: $base*2 $base;
+		}
+		.btn {
+			margin-bottom: $base/2;
+		}
+	}
+}
+
+.section__label {
+	color: $black;
+	display: block;
+	padding: 20px $base 0 26px;
+	position: relative;
+
+	&.frame--corner {
+		&::after,
+		&::before {
+			background-color: transparent;
+			border: solid 1px $black;
+			border-bottom: 0;
+			content: '';
+			height: $base/2;
+			position: absolute;
+			top: $frame-corner-margin;
+			width: $frame-corner-margin;
+		}
+		&::after {
+			display: none;
+			border-left: 0;
+			right: $frame-corner-margin;
+		}
+		&::before {
+			border-right: 0;
+			left: $frame-corner-margin;
+		}
+	}
+	&.label--right {
+		text-align: right
+	}
+	&.frame--line {
+		padding: 20px $base 0 12px;
+
+		&::before {
+			background-color: transparent;
+			border-top: solid 1px $black;
+			content: '';
+			height: $base/2;
+			left: 0;
+			position: absolute;
+			top: $frame-corner-margin;
+			width: $frame-corner-margin*2;
+		}
+	}
+	&.label--right {
+		text-align: right
+	}
+}
+
+.social {
+	@include flexbox();
+	@include align-content(flex-start);
+	@include align-items(flex-start);
+	@include flex-flow(row nowrap);
+	@include justify-content(flex-start);
+	padding-top: 4px;
+
+	> .badge {
+		border: solid 1px $white;
+		height: $base;
+		text-indent: -9999em;
+		width: $base;
+	}
+}
+
+%frame__corner {
+	background-color: transparent;
+	border: solid 1px $black;
+	height: $base/2;
+	position: absolute;
+	width: $base/2;	
+}
+.corner--ne {
+	@extend %frame__corner;
+	border-bottom: 0;
+	border-left: 0;
+	right: $frame-corner-margin;
+	top: $frame-corner-margin;
+}
+.corner--se {
+	@extend %frame__corner;
+	border-left: 0;
+	border-top: 0;
+	bottom: $frame-corner-margin;
+	right: $frame-corner-margin;
+}
+.corner--sw {
+	@extend %frame__corner;
+	border-right: 0;
+	border-top: 0;
+	bottom: $frame-corner-margin;
+	left: $frame-corner-margin;
+}
+.corner--nw {
+	@extend %frame__corner;
+	border-bottom: 0;
+	border-right: 0;
+	left: $frame-corner-margin;
+	top: $frame-corner-margin;
+}
+.frame--e,
+.frame--w {
+	background-color: lime;
+	height: $base;
+	position: absolute;
+	width: 1px;
+}

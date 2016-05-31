@@ -6,9 +6,29 @@ $(document).ready(function(){
 	});
 
 	$('.toggle--feed').click(function(){
-		$('body').toggleClass('visible--feed');
+		console.log('clicked');
+
+		if ($('body').hasClass('visible--feed')){
+			$(this).attr('data-icon','expand');
+			$('body').removeClass('visible--feed');
+			$('.feed').attr('data-theme','grey');
+		} else {
+			$(this).attr('data-icon','close');
+			$('body').addClass('visible--feed');
+			$('.feed').attr('data-theme','aqua');
+		}
 	});
-	$('.mark').click(function(){
-		$(this).toggleClass('animate');
+
+	$('.toggle--hero').click(function(){
+		console.log('clicked');
+
+
+		if ($('body').hasClass('visible--hero')){
+			$(this).attr('data-icon','add');
+			$('body').removeClass('visible--hero');
+		} else {
+			$(this).attr('data-icon','close');
+			$('body').addClass('visible--hero');
+		}
 	});
 });

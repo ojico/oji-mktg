@@ -1,26 +1,100 @@
 {
   "video": [
     {
-      "title": "Video Title",
-      "source":"NY Times",
-      "creator":"Director Name",
-      "poster": "image.jpg",
-      "url":"http://nytimes.com",
-      "embed":"",
-      "sticky":"",
-      "vimeo":"",
-      "youtube":""
+      "title": "Turning Oil Rigs Into Reefs",
+      "url": "http://www.nytimes.com/video/science/100000004154151/turning-oil-rigs-into-reefs.html",
+      "type": "Video",
+      "source": "NY Times",
+      "author": "Erik Olsen",
+      "sticky": "true"
     },
     {
-      "title": "Video Title",
-      "source":"NY Times",
-      "creator":"Director Name",
-      "poster": "image.jpg",
-      "url":"http://nytimes.com",
-      "embed":"",
-      "sticky":"",
-      "vimeo":"",
-      "youtube":""
+      "title": "Diving in Antarctica",
+      "url": "http://video.nationalgeographic.com/video/lisa-trotter-diving-lex",
+      "type": "Video",
+      "source": "National Geographic",
+      "author": "Lisa Trotter",
+      "sticky": "false"
+    },
+    {
+      "title": "Born Like Stars",
+      "url": "https://aeon.co/videos/an-underwater-journey-reveals-the-strange-birthing-process-of-a-deep-sea-squid",
+      "type": "Video",
+      "source": "Aeon",
+      "author": "Brent Hoff",
+      "sticky": "false"
+    },
+    {
+      "title": "Underwater Astonishments",
+      "url": "https://www.ted.com/talks/david_gallo_shows_underwater_astonishments",
+      "type": "Video",
+      "source": "TED",
+      "author": "David Gallo",
+      "sticky": "false"
+    },
+    {
+      "title": "Brian Skerry reveals oceans glory and horror",
+      "url": "http://www.ted.com/talks/brian_skerry_reveals_ocean_s_glory_and_horror?language=en",
+      "type": "Video",
+      "source": "TED",
+      "author": "Brian Skerry",
+      "sticky": "false"
+    },
+    {
+      "title": "Robert Ballard: Exploring the oceans",
+      "url": "https://www.ted.com/talks/robert_ballard_on_exploring_the_oceans?language=en",
+      "type": "Video",
+      "source": "TED",
+      "author": "Robert Ballard",
+      "sticky": "false"
+    },
+    {
+      "title": "My wish: protect our oceans",
+      "url": "http://www.ted.com/talks/sylvia_earle_s_ted_prize_wish_to_protect_our_oceans?language=en",
+      "type": "Video",
+      "source": "TED",
+      "author": "Sylvia Earle",
+      "sticky": "true"
+    },
+    {
+      "title": "Still",
+      "url": "http://aeon.co/video/science/still-a-free-diver-meditates-on-the-beauty-of-the-ocean/",
+      "type": "Video",
+      "source": "Aeon",
+      "author": "Ruby Stocking, Jose Tadeu Bijos, Michael Barth, Pasqual Guiterrez",
+      "sticky": "true"
+    },
+    {
+      "title": "How beautiful bioluminescent bacteria can expose invisible water pollution",
+      "url": "https://aeon.co/videos/how-beautiful-bioluminescent-bacteria-can-expose-invisible-water-pollution",
+      "type": "Video",
+      "source": "Aeon",
+      "author": "Alex Gibney",
+      "sticky": "false"
+    },
+    {
+      "title": "Dive into an ocean photographer's world",
+      "url": "https://www.ted.com/talks/thomas_peschak_dive_into_an_ocean_photographer_s_world",
+      "type": "Video",
+      "source": "TED",
+      "author": "Thomas Peschak",
+      "sticky": "false"
+    },
+    {
+      "title": "The secrets I find on the mysterious ocean floor",
+      "url": "https://www.ted.com/talks/laura_robinson_the_secrets_i_find_on_the_mysterious_ocean_floor",
+      "type": "Video",
+      "source": "TED",
+      "author": "Laura Robinson",
+      "sticky": "false"
+    },
+    {
+      "title": "The case for optimism on climate change",
+      "url": "https://www.ted.com/talks/al_gore_the_case_for_optimism_on_climate_change",
+      "type": "Video",
+      "source": "TED",
+      "author": "Al Gore",
+      "sticky": "false"
     }
   ]
 }

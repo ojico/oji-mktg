@@ -1,67 +1,11 @@
 {
   "entries": [
     {
-      "title": "The Seas Will Save Us",
-      "url": "https://medium.com/invironment/an-army-of-ocean-farmers-on-the-frontlines-of-the-blue-green-economic-revolution-d5ae171285a3#.itvm0e68c",
-      "type": "Article",
-      "source": "Medium",
-      "author": "Bren Smith",
-      "sticky": "true"
-    },
-    {
-      "title": "Turning Oil Rigs Into Reefs",
-      "url": "http://www.nytimes.com/video/science/100000004154151/turning-oil-rigs-into-reefs.html",
-      "type": "video",
-      "source": "NY Times",
-      "author": "Erik Olsen",
-      "sticky": "true"
-    },
-    {
       "title": "Marine Life Thrives in Unlikely Place: Offshore Oil Rigs",
       "url": "http://www.nytimes.com/2016/03/08/science/marine-life-thrives-in-unlikely-place-offshore-oil-rigs.html?_r=0",
       "type": "Article",
       "source": "NY Times",
       "author": "Erik Olsen",
-      "sticky": "false"
-    },
-    {
-      "title": "Luminous Life",
-      "url": "http://ngm.nationalgeographic.com/2015/03/luminous-life/judson-text",
-      "type": "Article",
-      "source": "National Geographic",
-      "author": "Olivia Judson",
-      "sticky": "true"
-    },
-    {
-      "title": "Acid Trap",
-      "url": "http://aeon.co/magazine/science/plankton-the-tiny-sentinels-of-the-deep/",
-      "type": "Article",
-      "source": "Aeon",
-      "author": "Peter Brannen",
-      "sticky": "false"
-    },
-    {
-      "title": "Everest at the Bottom of the Sea",
-      "url": "http://www.esquire.com/news-politics/a947/everest-bottom-sea-0700/",
-      "type": "Article",
-      "source": "Esquire",
-      "author": "Bucky McMahon",
-      "sticky": "false"
-    },
-    {
-      "title": "Diving in Antarctica",
-      "url": "http://video.nationalgeographic.com/video/lisa-trotter-diving-lex",
-      "type": "Video",
-      "source": "National Geographic",
-      "author": "Lisa Trotter",
-      "sticky": "false"
-    },
-    {
-      "title": "The Piscavores Dilemma",
-      "url": "http://www.outsideonline.com/1978326/piscivores-dilemma",
-      "type": "Article",
-      "source": "Outside Magazine",
-      "author": "Tim Zimmermann",
       "sticky": "false"
     },
     {
@@ -73,115 +17,11 @@
       "sticky": "false"
     },
     {
-      "title": "Underwater Astonishments",
-      "url": "https://www.ted.com/talks/david_gallo_shows_underwater_astonishments",
-      "type": "Video",
-      "source": "TED",
-      "author": "David Gallo",
-      "sticky": "false"
-    },
-    {
-      "title": "Brian Skerry reveals oceans glory and horror",
-      "url": "http://www.ted.com/talks/brian_skerry_reveals_ocean_s_glory_and_horror?language=en",
-      "type": "Video",
-      "source": "TED",
-      "author": "Brian Skerry",
-      "sticky": "false"
-    },
-    {
-      "title": "Robert Ballard: Exploring the oceans",
-      "url": "https://www.ted.com/talks/robert_ballard_on_exploring_the_oceans?language=en",
-      "type": "Video",
-      "source": "TED",
-      "author": "Robert Ballard",
-      "sticky": "false"
-    },
-    {
-      "title": "My wish: protect our oceans",
-      "url": "http://www.ted.com/talks/sylvia_earle_s_ted_prize_wish_to_protect_our_oceans?language=en",
-      "type": "Video",
-      "source": "TED",
-      "author": "Sylvia Earle",
-      "sticky": "true"
-    },
-    {
       "title": "Diving with Great White Sharks in Mexico",
       "url": "http://www.nytimes.com/interactive/2016/03/29/travel/great-white-shark-mexico.html",
       "type": "Article",
       "source": "NY Times",
       "author": "Benjamin Lowy",
-      "sticky": "false"
-    },
-    {
-      "title": "The Sailfish",
-      "url": "http://aeon.co/magazine/psychology/tim-ecott-deep-sea-diving/",
-      "type": "Article",
-      "source": "Aeon",
-      "author": "Tim Ecott",
-      "sticky": "false"
-    },
-    {
-      "title": "Still",
-      "url": "http://aeon.co/video/science/still-a-free-diver-meditates-on-the-beauty-of-the-ocean/",
-      "type": "Video",
-      "source": "Aeon",
-      "author": "Ruby Stocking, Jose Tadeu Bijos, Michael Barth, Pasqual Guiterrez",
-      "sticky": "false"
-    },
-    {
-      "title": "The Whale's Return",
-      "url": "https://aeon.co/essays/why-is-the-right-whale-returning-to-the-waters-off-cape-cod",
-      "type": "Article",
-      "source": "Aeon",
-      "author": "Philip Hoare",
-      "sticky": "false"
-    },
-    {
-      "title": "The Good Catch",
-      "url": "https://aeon.co/essays/how-the-ocean-s-devastated-fisheries-could-come-back-to-life",
-      "type": "Article",
-      "source": "Aeon",
-      "author": "Megan Molteni",
-      "sticky": "false"
-    },
-    {
-      "title": "Born Like Stars",
-      "url": "https://aeon.co/videos/an-underwater-journey-reveals-the-strange-birthing-process-of-a-deep-sea-squid",
-      "type": "Video",
-      "source": "Aeon",
-      "author": "Brent Hoff",
-      "sticky": "false"
-    },
-    {
-      "title": "Engineering the ocean",
-      "url": "https://aeon.co/essays/can-tiny-plankton-help-reverse-climate-change",
-      "type": "Article",
-      "source": "Aeon",
-      "author": "David Bielo",
-      "sticky": "false"
-    },
-    {
-      "title": "The depths of Okeanos",
-      "url": "https://aeon.co/essays/how-the-god-ocean-filled-the-blank-between-land-and-heaven",
-      "type": "Article",
-      "source": "Aeon",
-      "author": "James Romm",
-      "sticky": "false"
-    },
-    {
-      "title": "Through a gass, sadly",
-      "url": "https://aeon.co/essays/why-it-s-time-to-put-an-end-to-the-cult-of-the-aquarium",
-      "type": "Article",
-      "source": "Aeon",
-      "author": "Bernd Brunner",
-      "sticky": "false"
-    },
-    {
-      "title": "How beautiful bioluminescent bacteria can expose invisible water pollution",
-      "url": "https://aeon.co/videos/how-beautiful-bioluminescent-bacteria-can-expose-invisible-water-pollution",
-      "type": "Video",
-      "source": "Aeon",
-      "author": "Alex Gibney",
       "sticky": "false"
     },
     {
@@ -198,14 +38,6 @@
       "type": "Article",
       "source": "Washington Post",
       "author": "Elahe Izadi",
-      "sticky": "false"
-    },
-    {
-      "title": "Through a gass, sadly",
-      "url": "https://aeon.co/essays/why-it-s-time-to-put-an-end-to-the-cult-of-the-aquarium",
-      "type": "Article",
-      "source": "Aeon",
-      "author": "Bernd Brunner",
       "sticky": "false"
     },
     {
@@ -257,36 +89,12 @@
       "sticky": "false"
     },
     {
-      "title": "Dive into an ocean photographer's world",
-      "url": "https://www.ted.com/talks/thomas_peschak_dive_into_an_ocean_photographer_s_world",
-      "type": "Video",
-      "source": "TED",
-      "author": "Thomas Peschak",
-      "sticky": "false"
-    },
-    {
-      "title": "The secrets I find on the mysterious ocean floor",
-      "url": "https://www.ted.com/talks/laura_robinson_the_secrets_i_find_on_the_mysterious_ocean_floor",
-      "type": "Video",
-      "source": "TED",
-      "author": "Laura Robinson",
-      "sticky": "false"
-    },
-    {
-      "title": "The case for optimism on climate change",
-      "url": "https://www.ted.com/talks/al_gore_the_case_for_optimism_on_climate_change",
-      "type": "Video",
-      "source": "TED",
-      "author": "Al Gore",
-      "sticky": "false"
-    },
-    {
       "title": "Coral bleaching, a hot survivor",
       "url": "http://www.economist.com/news/science-and-technology/21696486-newly-found-species-algae-might-help-corals-survive-warm-water-hot?fsrc=scn/tw/te/pe/ed/Ahotsurvivor",
       "type": "Article",
       "source": "Economist",
       "author": "",
-      "sticky": "false"
+      "sticky": "true"
     },
     {
       "title": "Scientists Have Discovered a 600-Mile Coral Reef",
@@ -295,14 +103,6 @@
       "source": "The Atlantic",
       "author": "Robinson Meyer",
       "sticky": "true"
-    },
-    {
-      "title": "Deep Intellect",
-      "url": "https://orionmagazine.org/article/deep-intellect/",
-      "type": "Article",
-      "source": "Orion Magazine",
-      "author": "Sy Montgomery",
-      "sticky": "false"
     }
   ]
 }

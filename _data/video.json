@@ -1,0 +1,26 @@
+{
+  "video": [
+    {
+      "title": "Video Title",
+      "source":"NY Times",
+      "creator":"Director Name",
+      "poster": "image.jpg",
+      "url":"http://nytimes.com",
+      "embed":"",
+      "sticky":"",
+      "vimeo":"",
+      "youtube":""
+    },
+    {
+      "title": "Video Title",
+      "source":"NY Times",
+      "creator":"Director Name",
+      "poster": "image.jpg",
+      "url":"http://nytimes.com",
+      "embed":"",
+      "sticky":"",
+      "vimeo":"",
+      "youtube":""
+    }
+  ]
+}

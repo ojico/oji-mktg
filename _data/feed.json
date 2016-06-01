@@ -3,344 +3,306 @@
     {
       "title": "The Seas Will Save Us",
       "url": "https://medium.com/invironment/an-army-of-ocean-farmers-on-the-frontlines-of-the-blue-green-economic-revolution-d5ae171285a3#.itvm0e68c",
-      "order": "01",
       "type": "Article",
       "source": "Medium",
       "author": "Bren Smith",
-      "featured": "true"
+      "sticky": "true"
     },
     {
       "title": "Turning Oil Rigs Into Reefs",
       "url": "http://www.nytimes.com/video/science/100000004154151/turning-oil-rigs-into-reefs.html",
-      "order": "02",
       "type": "video",
       "source": "NY Times",
       "author": "Erik Olsen",
-      "featured": "true"
+      "sticky": "true"
     },
     {
       "title": "Marine Life Thrives in Unlikely Place: Offshore Oil Rigs",
       "url": "http://www.nytimes.com/2016/03/08/science/marine-life-thrives-in-unlikely-place-offshore-oil-rigs.html?_r=0",
-      "order": "03",
       "type": "Article",
       "source": "NY Times",
       "author": "Erik Olsen",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "Luminous Life",
       "url": "http://ngm.nationalgeographic.com/2015/03/luminous-life/judson-text",
-      "order": "04",
       "type": "Article",
       "source": "National Geographic",
       "author": "Olivia Judson",
-      "featured": "true"
+      "sticky": "true"
     },
     {
       "title": "Acid Trap",
       "url": "http://aeon.co/magazine/science/plankton-the-tiny-sentinels-of-the-deep/",
-      "order": "05",
       "type": "Article",
       "source": "Aeon",
       "author": "Peter Brannen",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "Everest at the Bottom of the Sea",
       "url": "http://www.esquire.com/news-politics/a947/everest-bottom-sea-0700/",
-      "order": "06",
       "type": "Article",
       "source": "Esquire",
       "author": "Bucky McMahon",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "Diving in Antarctica",
       "url": "http://video.nationalgeographic.com/video/lisa-trotter-diving-lex",
-      "order": "07",
       "type": "Video",
       "source": "National Geographic",
       "author": "Lisa Trotter",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "The Piscavores Dilemma",
       "url": "http://www.outsideonline.com/1978326/piscivores-dilemma",
-      "order": "08",
       "type": "Article",
       "source": "Outside Magazine",
       "author": "Tim Zimmermann",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "Cuba Reefs: A Last Caribbean Refuge",
       "url": "http://environment.nationalgeographic.com/environment/habitats/cuban-reefs/",
-      "order": "09",
       "type": "Article",
       "source": "National Geographic",
       "author": "Peter Benchley",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "Underwater Astonishments",
       "url": "https://www.ted.com/talks/david_gallo_shows_underwater_astonishments",
-      "order": "10",
       "type": "Video",
       "source": "TED",
       "author": "David Gallo",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "Brian Skerry reveals oceans glory and horror",
       "url": "http://www.ted.com/talks/brian_skerry_reveals_ocean_s_glory_and_horror?language=en",
-      "order": "11",
       "type": "Video",
       "source": "TED",
       "author": "Brian Skerry",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "Robert Ballard: Exploring the oceans",
       "url": "https://www.ted.com/talks/robert_ballard_on_exploring_the_oceans?language=en",
-      "order": "12",
       "type": "Video",
       "source": "TED",
       "author": "Robert Ballard",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "My wish: protect our oceans",
       "url": "http://www.ted.com/talks/sylvia_earle_s_ted_prize_wish_to_protect_our_oceans?language=en",
-      "order": "13",
       "type": "Video",
       "source": "TED",
       "author": "Sylvia Earle",
-      "featured": "true"
+      "sticky": "true"
     },
     {
       "title": "Diving with Great White Sharks in Mexico",
       "url": "http://www.nytimes.com/interactive/2016/03/29/travel/great-white-shark-mexico.html",
-      "order": "14",
       "type": "Article",
       "source": "NY Times",
       "author": "Benjamin Lowy",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "The Sailfish",
       "url": "http://aeon.co/magazine/psychology/tim-ecott-deep-sea-diving/",
-      "order": "15",
       "type": "Article",
       "source": "Aeon",
       "author": "Tim Ecott",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "Still",
       "url": "http://aeon.co/video/science/still-a-free-diver-meditates-on-the-beauty-of-the-ocean/",
-      "order": "16",
       "type": "Video",
       "source": "Aeon",
       "author": "Ruby Stocking, Jose Tadeu Bijos, Michael Barth, Pasqual Guiterrez",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "The Whale's Return",
       "url": "https://aeon.co/essays/why-is-the-right-whale-returning-to-the-waters-off-cape-cod",
-      "order": "17",
       "type": "Article",
       "source": "Aeon",
       "author": "Philip Hoare",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "The Good Catch",
       "url": "https://aeon.co/essays/how-the-ocean-s-devastated-fisheries-could-come-back-to-life",
-      "order": "18",
       "type": "Article",
       "source": "Aeon",
       "author": "Megan Molteni",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "Born Like Stars",
       "url": "https://aeon.co/videos/an-underwater-journey-reveals-the-strange-birthing-process-of-a-deep-sea-squid",
-      "order": "19",
       "type": "Video",
       "source": "Aeon",
       "author": "Brent Hoff",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "Engineering the ocean",
       "url": "https://aeon.co/essays/can-tiny-plankton-help-reverse-climate-change",
-      "order": "20",
       "type": "Article",
       "source": "Aeon",
       "author": "David Bielo",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "The depths of Okeanos",
       "url": "https://aeon.co/essays/how-the-god-ocean-filled-the-blank-between-land-and-heaven",
-      "order": "21",
       "type": "Article",
       "source": "Aeon",
       "author": "James Romm",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "Through a gass, sadly",
       "url": "https://aeon.co/essays/why-it-s-time-to-put-an-end-to-the-cult-of-the-aquarium",
-      "order": "22",
       "type": "Article",
       "source": "Aeon",
       "author": "Bernd Brunner",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "How beautiful bioluminescent bacteria can expose invisible water pollution",
       "url": "https://aeon.co/videos/how-beautiful-bioluminescent-bacteria-can-expose-invisible-water-pollution",
-      "order": "23",
       "type": "Video",
       "source": "Aeon",
       "author": "Alex Gibney",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "I trained killer whales at SeaWorld for 12 years. Here’s why I quit",
       "url": "http://www.vox.com/2016/3/22/11275970/seaworld-orca-killer-whale",
-      "order": "24",
       "type": "Article",
       "source": "Vox",
       "author": "John Hargrove",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "Sea lion pups are starving because their moms are eating ‘junk food’",
       "url": "https://www.washingtonpost.com/news/speaking-of-science/wp/2016/03/03/sea-lion-pups-are-starving-because-their-moms-are-eating-junk-food/",
-      "order": "25",
       "type": "Article",
       "source": "Washington Post",
       "author": "Elahe Izadi",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "Through a gass, sadly",
       "url": "https://aeon.co/essays/why-it-s-time-to-put-an-end-to-the-cult-of-the-aquarium",
-      "order": "26",
       "type": "Article",
       "source": "Aeon",
       "author": "Bernd Brunner",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "Invasive Species Aren’t Always Unwanted",
       "url": "http://www.nytimes.com/2016/03/01/science/invasive-species.html",
-      "order": "27",
       "type": "Article",
       "source": "NY Times",
       "author": "Erica Goode",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "In the Bahamas, Scuba Diving With James Bond’s Trainer",
       "url": "http://www.nytimes.com/2016/01/24/travel/bahamas-scuba-diving-james-bond.html",
-      "order": "28",
       "type": "Article",
       "source": "NY Times",
       "author": "Edmund Vallance",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "Palau vs. the Poachers",
       "url": "http://www.nytimes.com/2016/02/21/magazine/palau-vs-the-poachers.html",
-      "order": "29",
       "type": "Article",
       "source": "NY Times",
       "author": "Ian Urbina",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "Old Nuclear Fallout Proves Useful for Sea Turtle Clues",
       "url": "http://www.nytimes.com/2016/01/26/science/sea-turtles-hawksbills-shells-nuclear-blasts-radiation.html",
-      "order": "30",
       "type": "Article",
       "source": "NY Times",
       "author": "Rachel Nuwer",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "Florida scuba diver says he was sucked into nuclear plant intake pipe",
       "url": "http://www.cnn.com/2016/03/05/us/florida-scuba-diver-sucked-into-power-plant-pipe/",
-      "order": "31",
       "type": "Article",
       "source": "CNN",
       "author": "Ralph Ellis, Keith Allen",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "People With Disabilities Swap Their Wheelchairs For Scuba Gear",
       "url": "http://www.huffingtonpost.com/entry/people-in-wheelchairs-scuba-dive-oku-marine-discovery-dive_us_56f3fb30e4b0c3ef5218173f",
-      "order": "32",
       "type": "Article",
       "source": "Huffington Post",
       "author": "Elyse Wanshel",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "Dive into an ocean photographer's world",
       "url": "https://www.ted.com/talks/thomas_peschak_dive_into_an_ocean_photographer_s_world",
-      "order": "33",
       "type": "Video",
       "source": "TED",
       "author": "Thomas Peschak",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "The secrets I find on the mysterious ocean floor",
       "url": "https://www.ted.com/talks/laura_robinson_the_secrets_i_find_on_the_mysterious_ocean_floor",
-      "order": "34",
       "type": "Video",
       "source": "TED",
       "author": "Laura Robinson",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "The case for optimism on climate change",
       "url": "https://www.ted.com/talks/al_gore_the_case_for_optimism_on_climate_change",
-      "order": "35",
       "type": "Video",
       "source": "TED",
       "author": "Al Gore",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "Coral bleaching, a hot survivor",
       "url": "http://www.economist.com/news/science-and-technology/21696486-newly-found-species-algae-might-help-corals-survive-warm-water-hot?fsrc=scn/tw/te/pe/ed/Ahotsurvivor",
-      "order": "36",
       "type": "Article",
       "source": "Economist",
       "author": "",
-      "featured": "false"
+      "sticky": "false"
     },
     {
       "title": "Scientists Have Discovered a 600-Mile Coral Reef",
       "url": "http://www.theatlantic.com/science/archive/2016/04/scientists-discover-a-new-coral-reef-at-the-amazons-mouth/479259/",
-      "order": "37",
       "type": "Article",
       "source": "The Atlantic",
       "author": "Robinson Meyer",
-      "featured": "true"
+      "sticky": "true"
     },
     {
       "title": "Deep Intellect",
       "url": "https://orionmagazine.org/article/deep-intellect/",
-      "order": "38",
       "type": "Article",
       "source": "Orion Magazine",
       "author": "Sy Montgomery",
-      "featured": "false"
+      "sticky": "false"
     }
   ]
 }

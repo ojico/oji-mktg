@@ -4,24 +4,31 @@
     <div class="section__grid">
         <div class="block">
             <h5 class="text--h5 section__label frame--line">News</h5>
+
+            {% for entry in site.data.feed.entries limit:1 %}
             <a href="feed.html" class="block__text serif">
-                Sea lion pups are starving because their moms are eating junk food.
+                {{ entry.title }}
             </a>
             <a href="#" class="block__link">More</a>
+            {% endfor %}
         </div>
         <div class="block">
             <h5 class="text--h5 section__label frame--line">Video</h5>
+            {% for entry in site.data.video.video limit:1 %}
             <a href="video.html" class="block__text serif">
-                Sea lion pups are starving because their moms are eating junk food.
+                {{ entry.title }}
             </a>
             <a href="#" class="block__link">More</a>
+            {% endfor %}
         </div>
         <div class="block">
             <h5 class="text--h5 section__label frame--line">Library</h5>
+            {% for entry in site.data.library.library limit:1 %}
             <a href="library.html" class="block__text serif">
-                Sea lion pups are starving because their moms are eating junk food.
+                {{ entry.title }}
             </a>
             <a href="#" class="block__link">More</a>
+            {% endfor %}
         </div>
     </div>
 

@@ -6,7 +6,8 @@
       "type": "Video",
       "source": "NY Times",
       "author": "Erik Olsen",
-      "sticky": "true"
+      "sticky": "true",
+      "date": "2016-03-07T00:00:00Z"
     },
     {
       "title": "Diving in Antarctica",
@@ -30,7 +31,8 @@
       "type": "Video",
       "source": "TED",
       "author": "David Gallo",
-      "sticky": "false"
+      "sticky": "false",
+      "date": "2007-03-01T00:00:00Z"
     },
     {
       "title": "Brian Skerry reveals oceans glory and horror",
@@ -38,7 +40,8 @@
       "type": "Video",
       "source": "TED",
       "author": "Brian Skerry",
-      "sticky": "false"
+      "sticky": "false",
+      "date": "2010-04-01T00:00:00Z"
     },
     {
       "title": "Robert Ballard: Exploring the oceans",
@@ -46,7 +49,8 @@
       "type": "Video",
       "source": "TED",
       "author": "Robert Ballard",
-      "sticky": "false"
+      "sticky": "false",
+      "date": "2008-02-01T00:00:00Z"
     },
     {
       "title": "My wish: protect our oceans",
@@ -54,7 +58,8 @@
       "type": "Video",
       "source": "TED",
       "author": "Sylvia Earle",
-      "sticky": "true"
+      "sticky": "true",
+      "date": "2009-02-01T00:00:00Z"
     },
     {
       "title": "Still",
@@ -78,7 +83,8 @@
       "type": "Video",
       "source": "TED",
       "author": "Thomas Peschak",
-      "sticky": "false"
+      "sticky": "false",
+      "date": "2015-10-01T00:00:00Z"
     },
     {
       "title": "The secrets I find on the mysterious ocean floor",
@@ -86,7 +92,8 @@
       "type": "Video",
       "source": "TED",
       "author": "Laura Robinson",
-      "sticky": "false"
+      "sticky": "false",
+      "date": "2014-12-01T00:00:00Z"
     },
     {
       "title": "The case for optimism on climate change",
@@ -94,7 +101,8 @@
       "type": "Video",
       "source": "TED",
       "author": "Al Gore",
-      "sticky": "false"
+      "sticky": "false",
+      "date": "2016-02-01T00:00:00Z"
     }
   ]
 }

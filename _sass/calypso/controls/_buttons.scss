@@ -18,6 +18,17 @@ $btn--height: $base*2;
     position: relative;
     text-transform: uppercase;
 
+    &[data-size="small"] {
+        height: $btn--height/2;
+
+        .btn__label {
+            background-color: violet;
+        }
+    }
+    &[data-style="primary"]{
+        background-color: purple !important;
+    }
+
     &.btn--accent {
         &::after {
             background-image: url(/assets/images/btn__accent.png);

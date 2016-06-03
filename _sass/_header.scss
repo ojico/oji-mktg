@@ -1,5 +1,17 @@
 .visible--feed {
 	.header {
+		.corner {
+			border-color: $blue !important;
+		}
+		.header__section {
+			> .section__label {
+				&::before,
+				&::after {
+					border-color: $blue !important;
+				}
+			}
+		}	
+
 		.header__oji {
 			@include transitionEase(all, 0.4s);
 			@include translate(0,-$base*8);
@@ -18,7 +30,6 @@
 	@include align-items(flex-start);
 	@include flex-flow(row wrap);
 	@include justify-content(flex-start);
-	background-color: red;
 	height: 0;
 	position: absolute;
 	top: 0;
@@ -46,11 +57,9 @@
 	}
 
 	.header__section {
-		background-color: purple;
 		min-height: $base*2;
 
 		> .section__label {
-			background-color: violet;
 		}
 
 		&.header__title {
@@ -61,6 +70,10 @@
 			> .section__label {
 				white-space: nowrap;
 				word-break: none;
+
+				&::after {
+					display: none;
+				}
 			}
 		}
 		&.header__about {
@@ -79,6 +92,7 @@
 				@include flex-flow(row nowrap);
 				@include justify-content(flex-start);
 				@include translate(-2px,0);
+				display: none;
 				padding: 54px $base/2 0 $base/2;
 
 				.social__badge {
@@ -134,7 +148,5 @@
 				}
 			}
 		}
-
-
 	}
 }

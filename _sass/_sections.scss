@@ -48,6 +48,7 @@
 		top: 0;
 
 		.toggle--hero {
+			display: none;
 			left: $full/7*3;
 			position: absolute;
 			top: 76px;
@@ -58,8 +59,13 @@
 		height: $med;
 		top: $large;
 
-		.section__label {
+		.corner {
+			border-color: $blue;
+		}
+
+		> .section__label {
 			@include translate(0,-$base*4);
+			background-color: pink;
 			bottom: $base;
 			left: $base*4;
 			line-height: $base*2;
@@ -91,10 +97,61 @@
 			}
 		}
 
+		.section__grid {
+			@extend %clearfix;
+			bottom: 0;
+			left: $full/7;
+			position: absolute;
+			top: $base*2;
+			width: $full/7*6;
+
+			.block {
+				display: block;
+				float: left;
+				height: $full;
+				position: relative;
+				width: $full/3;
+
+				.section__label {
+					color: $blue;
+
+					&.frame--line {
+						&::after,
+						&::before {
+							border-color: $blue;
+						}
+					}
+				}
+				.block__text {
+					@extend .text--h2;
+					color: $blue;
+					display: block;
+					height: 153px;
+					padding: 10px $base 10px 10px;
+				}
+				.block__link {
+					display: none;
+					padding: 0 10px;
+				}
+
+				&::after {
+					background-color: transparent;
+					border-top: solid 1px $blue;
+					bottom: 1px;
+					content: '';
+					height: $base/2;
+					left: 0;
+					position: absolute;
+					width: $frame-corner-margin*2;
+				}
+			}
+		}
+
 		.toggle--feed {
 			@include transitionEase(all, 0.5s);
 			@include translate(0,0);
 			bottom: $base*9;
+			display: none;
 			opacity: 1;
 			margin: 0;
 			position: absolute;
@@ -106,7 +163,31 @@
 	&.section--signup {
 		height: 50%;
 		overflow: hidden;
+		position: relative;
 		top: 0;
+
+		.section__text {
+			margin-bottom: $base;
+		}
+
+		> .signup__form {
+			border: solid 1px $green;
+			height: $base*1.5;
+			margin-bottom: $base;
+			position: relative;
+			width: $xlarge;
+
+			.input {
+				margin: 7px $base/2;
+				width: $full;
+			}
+			.btn {
+				position: absolute;
+				right: -1px;
+				top: -1px;
+				width: $med;
+			}
+		}
 	}
 	&.section--feature {
 		background-image: url(/assets/images/feature--scuba.jpg);

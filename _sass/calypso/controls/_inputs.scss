@@ -1,21 +1,39 @@
 .input {
 	@include appearance(none);
-    @extend .text--h3;
     background-color: transparent;
-    border: 0;
-    border-bottom: solid 2px white;
+    border: solid 1px red;
     border-radius: 0;
-    color: white;
-    line-height: $base*2;
+    color: black;
+    font-weight: 500;
     margin: 0;
-    padding: 0;
-    width: $base*14;
+    padding: 0 $base/2;
 
     @include placeholder {
-        color: white;
+        color: red;
     }
 
     &:focus {
     	outline: 0;
+    }
+
+    &[data-size="small"] {
+        height: $base*1.5;
+        font-size: 12px;
+        height: 18px;
+        line-height: 12px;
+        padding: 0px $base/2;
+    }
+    &[data-style="primary"] {
+        border-color: $green;
+        color: $green;
+
+        @include placeholder {
+            color: $green;
+        }
+    }
+
+    &.input--framed {
+        border: 0;
+        padding: 0;
     }
 }

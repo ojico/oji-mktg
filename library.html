@@ -1,7 +1,7 @@
 ---
 layout: feed
-header-theme: light
-visible: 
+header-theme:
+visible: feed
 ---
 
 <section class="feed theme--aqua">
@@ -13,6 +13,7 @@ visible:
 			<h2 class="entry__title text--h2"><span class="serif">{{ entry.title }}</span> <span class="small">{{ entry.source }}</span></h2>
 			<div class="entry__meta">
 				<span class="entry__type">{{ entry.type }}</span> | {{ entry.author }}
+			</div>
 		</a>
 		{% endfor %}
 	</div>

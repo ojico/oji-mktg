@@ -20,15 +20,12 @@ $frame-corner-margin: $base/2;
 		}
 		.section__text {
 			text-align: center;
-			margin: $base/2;
+			margin: $base;
 			padding: 0 $base;
-		}
-		.btn {
-			margin-bottom: $base/2;
 		}
 	}
 
-	&.section--left {
+	&.section--top {
 		@include flexbox();
 		@include align-content(flex-start);
 		@include align-items(center);
@@ -43,7 +40,7 @@ $frame-corner-margin: $base/2;
 			width: $full;
 		}
 		.section__text {
-			text-align: left;
+			text-align: center;
 			padding: $base*2 $base;
 		}
 		.btn {
@@ -71,7 +68,7 @@ $frame-corner-margin: $base/2;
 			width: $frame-corner-margin;
 		}
 		&::after {
-			display: none;
+			//display: none;
 			border-left: 0;
 			right: $frame-corner-margin;
 		}

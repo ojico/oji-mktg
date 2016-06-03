@@ -22,6 +22,7 @@ $orange: orangered;
 $lightblue: #bce5f2;
 $blue: #0731b7;
 $green: #009947;
+//$green: #009947;
 $yellow: #fdcd30;
 
 $aqua: #d1efea;
@@ -142,8 +143,8 @@ $aqua: #d1efea;
 	.section__label {
 		color: $blue;
 
-		&::after,
-		&::before {
+		&.frame--corner::after,
+		&.frame--corner::before {
 			border-color: $blue;
 		}
 	}
@@ -160,8 +161,10 @@ $aqua: #d1efea;
 			}
 		}
 	}
-	.frame--se,
-	.frame--sw {
+	.corner--ne,
+	.corner--nw,
+	.corner--se,
+	.corner--sw {
 		border-color: $blue;
 	}
 }
@@ -174,11 +177,11 @@ $aqua: #d1efea;
 	color: $white;
 
 	.section__label {
-		color: $white;
+		color: $orange;
 
-		&::after,
-		&::before {
-			border-color: $white;
+		&.frame--corner::after,
+		&.frame--corner::before {
+			border-color: $orange;
 		}
 	}
 	.section__text {
@@ -190,13 +193,14 @@ $aqua: #d1efea;
 
 		.btn__i {
 			.i {
-				border-color: violet;
 			}
 		}
 	}
-	.frame--se,
-	.frame--sw {
-		border-color: $white;
+	.corner--ne,
+	.corner--nw,
+	.corner--se,
+	.corner--sw {
+		border-color: $orange;
 	}
 	.feed {
 		background-color: $orange;

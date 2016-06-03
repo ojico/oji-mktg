@@ -6,7 +6,7 @@
       "type": "Article",
       "source": "NY Times",
       "author": "Erik Olsen",
-      "sticky": "false"
+      "sticky": "false",
       "date": "2016-03-08T00:00:00Z"
     },
     {
@@ -15,7 +15,7 @@
       "type": "Article",
       "source": "National Geographic",
       "author": "Peter Benchley",
-      "sticky": "false"
+      "sticky": "false",
       "date": "2002-02-01T00:00:00Z"
     },
     {
@@ -24,7 +24,7 @@
       "type": "Article",
       "source": "NY Times",
       "author": "Benjamin Lowy",
-      "sticky": "false"
+      "sticky": "false",
       "date": "2016-03-29T00:00:00Z"
     },
     {
@@ -33,7 +33,7 @@
       "type": "Article",
       "source": "Vox",
       "author": "John Hargrove",
-      "sticky": "false"
+      "sticky": "false",
       "date": "2016-03-22T00:00:00Z"
     },
     {
@@ -42,7 +42,7 @@
       "type": "Article",
       "source": "Washington Post",
       "author": "Elahe Izadi",
-      "sticky": "false"
+      "sticky": "false",
       "date": "2016-03-03T00:00:00Z"
     },
     {
@@ -51,7 +51,7 @@
       "type": "Article",
       "source": "NY Times",
       "author": "Erica Goode",
-      "sticky": "false"
+      "sticky": "false",
       "date": "2016-03-01T00:00:00Z"
     },
     {
@@ -60,7 +60,7 @@
       "type": "Article",
       "source": "NY Times",
       "author": "Edmund Vallance",
-      "sticky": "false"
+      "sticky": "false",
       "date": "2016-01-24T00:00:00Z"
     },
     {
@@ -69,7 +69,7 @@
       "type": "Article",
       "source": "NY Times",
       "author": "Ian Urbina",
-      "sticky": "false"
+      "sticky": "false",
       "date": "2016-02-21T00:00:00Z"
     },
     {
@@ -78,7 +78,7 @@
       "type": "Article",
       "source": "NY Times",
       "author": "Rachel Nuwer",
-      "sticky": "false"
+      "sticky": "false",
       "date": "2016-01-26T00:00:00Z"
     },
     {
@@ -87,7 +87,7 @@
       "type": "Article",
       "source": "CNN",
       "author": "Ralph Ellis, Keith Allen",
-      "sticky": "false"
+      "sticky": "false",
       "date": "2016-03-05T00:00:00Z"
     },
     {
@@ -105,7 +105,7 @@
       "type": "Article",
       "source": "Economist",
       "author": "",
-      "sticky": "true"
+      "sticky": "true",
       "date": "2016-04-29T00:00:00Z"
     },
     {
@@ -114,7 +114,7 @@
       "type": "Article",
       "source": "The Atlantic",
       "author": "Robinson Meyer",
-      "sticky": "true"
+      "sticky": "true",
       "date": "2016-04-21T00:00:00Z"
     }
   ]

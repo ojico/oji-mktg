@@ -1,0 +1,17 @@
+.section--campaign {
+	background-image: url(/assets/images/feature--scuba.jpg);
+	background-position: right bottom;
+	background-size: cover;
+	height: 50%;
+	top: 50%;
+
+	&[data-theme="orange"] {
+		background-color: $orange;
+		color: $white;
+		
+		.corner,
+		.frame {
+			border-color: $orange;
+		}
+	}
+}

@@ -1,0 +1,49 @@
+.visible--frontpage {
+	.section--hero {
+		@include transitionEase(all, 0.5s);
+		@include translate(0,-$full);
+		background-color: transparent;
+
+		.hero__img {
+			@include transitionEase(all, 0.7s);
+			@include translate(0,-$full);
+		}
+	}
+}
+
+.section--hero {
+	@include transitionEase(all, 0.5s);
+	height: $large;
+	position: relative;
+	top: 0;
+
+	@include media-query($on-touch) {
+		height: $med;
+    }
+
+	.hero__img {
+		@include transitionEase(all, 0.7s);
+		background-color: $orange;
+		background-image: url(/assets/images/hero-alpine.jpg);
+		background-position: center bottom;
+		background-size: cover;
+		bottom: -$base*2;
+		left: $base*2;
+		position: absolute;
+		right: 0;
+		top: $base*5;
+		z-index: 1000;
+
+		@include media-query($on-touch) {
+			bottom: -$base;
+			left: $base;
+			top: $base*4;
+    	}
+	}
+	.toggle--hero {
+		display: none;
+		left: $full/7*3;
+		position: absolute;
+		top: 76px;
+	}
+}

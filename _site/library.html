@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html style="height:100%;">
 
-    <head>	
+    <head>
+	<script src="https://cdn.optimizely.com/js/6155720515.js"></script>	
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width initial-scale=1">
@@ -20,13 +21,15 @@
 
 <script type="text/javascript" src="/js/layout.js" ></script>
 
-
+	<script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
+mixpanel.init("0ced63a46214fb707901139369b3b6e0");</script>
 </head>
 
 
-    <body class="oji-feed visible--feed">
+    <body class="oji--frontpage visible--feed" data-theme="aqua">
 
-    	<header class="header theme--light" data-theme="">
+    	<header class="header" data-theme="">
 	<span class="header__oji">
 		<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 398 254"><defs><style>.cls-1{fill:#fff;}</style></defs><title>oji-origami</title><path class="cls-1" d="M171.88,164.6C156,186.12,103.66,208,74.19,208c-16.56,0-53-17.22-61.93-32.12C6.63,166.25,1,136.45,1,110.62,1,71.87,7.29,46.37,16.9,37.1,35.11,19.21,85.45,1,117.24,1c19.21,0,53.65,14.9,62.59,29.47,4.31,7,7,27.49,7,61.6C186.78,121.88,179.5,154.66,171.88,164.6ZM135.45,31.14c-4.31-5-20.2-7.95-44-7.95H89.09c-15.23,0-30.14,3.31-34.77,7.29C47,36.77,40.08,59,40.08,102.67c0,31.79,6,62.26,13.91,72.19,5,6.29,28.81,9.93,48.68,9.93,12.92,0,25.83-3.31,29.47-7.28,8.61-9.27,15.89-36.43,15.89-76.83C148,63.59,143.4,40.08,135.45,31.14Z" transform="translate(-1 -1)"/><path class="cls-1" d="M281.68,11.6c0,2-.66,4-1.66,4.31-12.25,4.3-16.22,7-16.89,11.59-1,7.95-1.33,37.42-1.33,73.19,0,53.65,0,75.51-3,91.07-5.3,29.81-46.69,63.25-61.59,63.25-11.92,0-21.53-7-24.84-13.91a15.47,15.47,0,0,1-1-5.63c0-6.62,3.31-14.57,5-14.57h0.33c8.94,5.63,18.88,9.93,26.82,9.93,6,0,10.6-1,12.92-3,7.29-6.29,11.92-22.85,11.92-111.94,0-73.19,0-83.12-2.65-89.08-1.33-3.31-10.27-6-27.49-10.6-1-.33-1.32-2-1.32-3.64,0-2,.66-4,1.66-4h81.8C281.35,8.62,281.68,9.94,281.68,11.6Z" transform="translate(-1 -1)"/><path class="cls-1" d="M306.94,200.69c-1,0-1.32-1.33-1.32-3,0-2,.66-4.3,1.32-4.64,16.56-5,20.2-9.93,20.86-13.91,1.33-7.95,2-28.81,2-77.16,0-58.62-1.32-68.88-2.65-75.18-1-3.64-9.27-6-27.82-10.93-1-.33-1.33-2-1.33-3.64s0.33-3.64,1.66-3.64h83.79c1,0,1.33,1.32,1.33,2.65,0,2-.66,4.64-2,5-13.25,4-17.22,7.95-17.88,12.25-1,5.63-1.33,30.8-1.33,72.52,0,46.36.66,71.2,2.32,78.82,0.66,4,9.27,7.95,32.12,13.58,0.66,0.33,1,2.32,1,4s-0.33,3.31-1,3.31H306.94Z" transform="translate(-1 -1)"/></svg>
 	</span>
@@ -82,7 +85,7 @@
 </header>
 
     	<aside class="sidebar sidebar--left">
-            <section class="section section--hero theme--blue">
+            <section class="section section--hero" data-theme="blue">
     <div class="hero__menu">
     	<button type="button" class="btn btn--toggle toggle--hero" data-icon="add" data-size="small" data-style="outline-light">
     	    <i class="btn__i">
@@ -91,43 +94,15 @@
     	    </i>
     	</button>
     </div>
+	<figure class="hero__img"></figure>
 </section>
-<figure class="hero__img"></figure>
-            <section class="section section--feed">
-    <label class="section__label text--h4 serif">Oji Newsfeed</label>
+            <section class="section section--frontpage">
 
-    <div class="section__grid">
-        <div class="block">
-            <h5 class="text--h5 section__label frame--line">News</h5>
-
-            
-            <a href="feed.html" class="block__text serif">
-                Marine Life Thrives in Unlikely Place: Offshore Oil Rigs
-            </a>
-            <a href="#" class="block__link">More</a>
-            
-        </div>
-        <div class="block">
-            <h5 class="text--h5 section__label frame--line">Video</h5>
-            
-            <a href="video.html" class="block__text serif">
-                Turning Oil Rigs Into Reefs
-            </a>
-            <a href="#" class="block__link">More</a>
-            
-        </div>
-        <div class="block">
-            <h5 class="text--h5 section__label frame--line">Library</h5>
-            
-            <a href="library.html" class="block__text serif">
-                The Seas Will Save Us
-            </a>
-            <a href="#" class="block__link">More</a>
-            
-        </div>
+    <div class="section__text">
+        <h2 class="text--h2 serif">Text</h2>
     </div>
 
-    <button type="button" class="btn btn--toggle toggle--feed guide" data-style="primary" data-icon="expand">
+    <button type="button" class="btn btn--toggle toggle--frontpage" data-style="primary" data-icon="expand">
         <i class="btn__i">
             <span class="i i-1"></span>
             <span class="i i-2"></span>
@@ -260,27 +235,31 @@
 	</div>
 
 </section>
-   
+
         </div>
+        <nav role="navigation" class="frontpage__nav">
+</nav>
 
         <span class="frame frame--w"></span>
 
         <aside class="sidebar sidebar--right">
-            <section class="section section--signup section--center theme--blue-invert">
+            <section class="section section--signup section--center" data-theme="blue--invert">
     <h5 class="section__label text--h5 frame--corner">BETA Signup</h5>
     <h2 class="section__text text--h2 serif">Sign up for Oji updates and first access to our Scuba Diving logbook</h2>
 
-    <form class="signup__form">	
+    <form class="signup__form">
+    
     	<input type="email" placeholder="Email" value="" class="input input--framed" data-style="primary" data-size="small">
     	<button type="submit" class="btn" data-style="primary" data-size="small">
     		<label class="btn__label">Submit</label>
     	</button>
+
     </form>
     
     <span class="corner--se"></span>
     <span class="corner--sw"></span>
 </section>
-            <section class="section section--feature section--top theme--orange">
+            <section class="section section--campaign section--top" data-theme="orange">
     <h5 class="section__label text--h5 frame--corner">Coming Soon</h5>
     <h2 class="section__text text--h2">
     	Logbook for scuba diving.<br>
@@ -303,6 +282,7 @@
 	<div class="guide__y guide__y--right"></div>
 	<div class="guide__y guide__y--centre"></div>
 	<div class="guide__x guide__x--centre"></div>
+	<div class="guide__x guide__x--bottom"></div>
 
 </div>
 

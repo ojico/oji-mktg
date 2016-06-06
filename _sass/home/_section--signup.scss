@@ -1,0 +1,29 @@
+.section--signup {
+	height: 50%;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+
+	.section__text {
+		margin-bottom: $base;
+	}
+
+	> .signup__form {
+		border: solid 1px $green;
+		height: $base*1.5;
+		margin-bottom: $base;
+		position: relative;
+		width: $xlarge;
+
+		.input {
+			margin: 7px $base/2;
+			width: $full;
+		}
+		.btn {
+			position: absolute;
+			right: -1px;
+			top: -1px;
+			width: $med;
+		}
+	}
+}

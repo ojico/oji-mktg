@@ -5,17 +5,17 @@ $(document).ready(function(){
 		$('.oj__menu').attr('data-focus',target);
 	});
 
-	$('.toggle--feed').click(function(){
+	$('.toggle--frontpage').click(function(){
 		console.log('clicked');
 
-		if ($('body').hasClass('visible--feed')){
+		if ($('body').hasClass('visible--frontpage')){
 			$(this).attr('data-icon','expand');
-			$('body').removeClass('visible--feed');
-			$('.feed').attr('data-theme','grey');
+			$('body').removeClass('visible--frontpage');
+			$('.header').attr('data-theme','white');
 		} else {
 			$(this).attr('data-icon','close');
-			$('body').addClass('visible--feed');
-			$('.feed').attr('data-theme','aqua');
+			$('body').addClass('visible--frontpage');
+			$('.header').attr('data-theme','blue');
 		}
 	});
 

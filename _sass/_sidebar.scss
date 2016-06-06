@@ -1,9 +1,10 @@
-.visible--feed {
+.visible--frontpage {
 	.sidebar {
 		@include transitionEase(0.5s,all);
 
 		&.sidebar--left {
 			@include translate(0,-$full);
+			background-color: rgba(255,0,0,0.5);
 		}
 		&.sidebar--right {
 			@include translate(0,0);
@@ -22,10 +23,18 @@
 		@include translate(0,0);
 		left: 0;
 		width: $full*7/10;
+
+		@include media-query($on-touch) {
+			width: $full;
+    	}
 	}
 	&.sidebar--right {
 		opacity: 1;
 		right: 0;
 		width: $full*3/10;
+
+		@include media-query($on-touch) {
+			display: none;
+    	}
 	}
 }

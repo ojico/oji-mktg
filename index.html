@@ -1,20 +1,25 @@
 ---
-layout: feed
-header-theme: light
+layout: frontpage
+header-theme: white
 visible: 
 ---
 
-<section class="feed theme--aqua">
+<dive class="frontpage" data-theme="aqua">
 	
-	<div class="feed__entries">
-		{% for entry in site.data.feed.entries %}
-		<a href="{{ entry.url }}" class="feed__entry" target="_blank">
-			<figure class="entry__icn icn--{{ entry.type }}"></figure>
-			<h2 class="entry__title text--h2"><span class="serif">{{ entry.title }}</span> <span class="small">{{ entry.source }}</span></h2>
-			<div class="entry__meta">
-				<span class="entry__type">{{ entry.type }}</span> | {{ entry.author }}
-		</a>
-		{% endfor %}
-	</div>
+	<section class="frontpage__section">
+		<h2 class="text--h2">/ News</h2>
+	</section>
+	<section class="frontpage__section">
+		front
+	</section>
+	<section class="frontpage__section">
+		front
+	</section>
+	<section class="frontpage__section">
+		front
+	</section>
+	<section class="frontpage__section">
+		front
+	</section>
 
 </section>

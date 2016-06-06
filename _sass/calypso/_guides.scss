@@ -45,8 +45,16 @@
 		&.guide__x--centre {
 			top: 50%;
 		}
+		&.guide__x--bottom {
+			bottom: $base/2;
+			display: none;
+		}
 		&.guide__x--header {
-			top: 87px;
+			top: 92px;
+
+			@include media-query($on-touch) {
+				top: $base*3;
+			}
 		}
 	}
 

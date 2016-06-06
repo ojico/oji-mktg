@@ -1,0 +1,72 @@
+.visible--frontpage {
+	.section--frontpage {
+		.toggle--frontpage {
+			@include transitionEase(all, 0.7s);
+			bottom: -$base*3;
+		}
+	}
+}
+
+.section--frontpage {
+	@include transitionEase(all, 0.5s);
+	height: $med;
+	top: $large;
+
+	.corner {
+		border-color: red;
+	}
+
+	.section__text {
+		bottom: 0;
+		color: $blue;
+		left: $full/7;
+		padding: $base/2 $base/2 $base $base/2;
+		position: absolute;
+		top: $base*3;
+		width: $full/7*5;
+		z-index: 1500;
+
+		&::after,
+		&::before {
+			background-color: $blue;
+			content:'';
+			left: 0;
+			height: 1px;
+			position: absolute;
+			width: $base;
+		}
+		&::after {
+			bottom: $base/2;
+		}
+		&::before {
+			top: 0;
+		}
+
+		.text--h2 {
+		}
+
+		.border {
+			span {
+				border: solid 1px red;
+				display: inline-block;
+				height: $base/2;
+				width: $base/2;
+			}
+		}
+	}
+
+	.toggle--frontpage {
+		@include transitionEase(all, 0.7s);
+		@include translate(0,0);
+		bottom: $base;
+		opacity: 1;
+		margin: 0;
+		position: absolute;
+		right: $base;
+		z-index: 9000;
+	}
+
+	&[data-theme="aqua"] {
+		
+	}
+}

@@ -21,8 +21,8 @@ $brown5: #4b351d;
 $orange: orangered;
 $lightblue: #bce5f2;
 $blue: #0731b7;
+//$green: #00a568;
 $green: #009947;
-//$green: #009947;
 $yellow: #fdcd30;
 
 $aqua: #d1efea;
@@ -30,7 +30,7 @@ $aqua: #d1efea;
 /**
  * Dark theme
  */
-.theme--dark {
+[data-theme="dark"] {
 	background-color: $black;
 	color: $white;
 
@@ -52,9 +52,9 @@ $aqua: #d1efea;
 }
 
 /**
- * Light theme
+ * White theme
  */
-.theme--light {
+[data-theme="white"] {
 	background-color: $white;
 	color: $black;
 
@@ -78,7 +78,7 @@ $aqua: #d1efea;
 /**
  * Aqua theme
  */
-.theme--aqua {
+[data-theme="aqua"] {
 	background-color: $aqua;
 	color: $blue;
 
@@ -112,7 +112,7 @@ $aqua: #d1efea;
 /**
  * Blue theme
  */
-.theme--blue {
+[data-theme="blue"] {
 	background-color: $blue;
 	color: $white;
 
@@ -136,7 +136,7 @@ $aqua: #d1efea;
 /**
  * Blue theme, inverted
  */
-.theme--blue-invert {
+[data-theme="blue--invert"] {
 	background-color: $white;
 	color: $blue;
 
@@ -172,7 +172,7 @@ $aqua: #d1efea;
 /**
  * Orange theme
  */
-.theme--orange {
+[data-theme="orange"] {
 	background-color: $orange;
 	color: $white;
 
@@ -202,24 +202,12 @@ $aqua: #d1efea;
 	.corner--sw {
 		border-color: $orange;
 	}
-	.feed {
-		background-color: $orange;
-
-		.feed__entries {
-			.feed__entry {
-				.entry__title {
-				}
-				.entry__meta {
-				}
-			}
-		}
-	}
 }
 
 /**
  * Brown theme
  */
-.theme--brown {
+[data-theme="brown"] {
 	background-color: $brown1;
 	color: $brown5;
 
@@ -248,24 +236,12 @@ $aqua: #d1efea;
 	.frame--sw {
 		border-color: $brown3;
 	}
-	.feed {
-		background-color: $brown1;
-
-		.feed__entries {
-			.feed__entry {
-				.entry__title {
-				}
-				.entry__meta {
-				}
-			}
-		}
-	}
 }
 
 /**
  * Grey theme
  */
-.theme--grey {
+[data-theme="grey"] {
 	background-color: $grey--light;
 	color: $grey;
 
@@ -293,25 +269,5 @@ $aqua: #d1efea;
 	.frame--se,
 	.frame--sw {
 		border-color: $grey;
-	}
-	.container {
-		background-color: $grey--light;
-
-		.feed {
-	
-			.feed__entries {
-	
-				.feed__entry {
-					background-color: $white;
-	
-					.entry__title {
-						color: $black;
-					}
-					.entry__meta {
-						color: $black;
-					}
-				}
-			}
-		}
 	}
 }

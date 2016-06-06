@@ -1,0 +1,60 @@
+.oji--frontpage {
+	overflow: hidden;
+
+	&.visible--frontpage {
+		.frame {
+			background-color: $blue;
+		}
+		.frontpage__nav {
+			@include transitionEase(transform, 0.3s);
+			@include translate(0,0);
+		}
+		.container {
+			@include transitionEase(transform, 0.8s);
+			@include translate(0,0);
+			overflow-y: scroll;
+
+			.frontpage {
+			}
+		}
+	}
+}
+
+.frontpage__nav {
+	@include transitionEase(transform, 0.3s);
+	@include translate(-$base*2,0);
+	background-color: lime;
+	height: $base*2;
+	margin-top: -$base;
+	position: absolute;
+	top: 50%;
+	width: $base*2;
+	z-index: 1000;
+}
+
+.container {
+	@include transitionEase(transform, 0.8s);
+	@include translate(0,$full);
+	@include flexbox();
+	overflow-y: visible;
+
+	.frontpage {
+		display: block;
+		padding-top: 90px;
+		padding-right: calc(100%/10 - 12px);
+		position: relative;
+		width: $full;
+
+		.frontpage__section {
+			display: block;
+			height: 500px;
+			padding: 0 $full/9;
+			width: $full/9*7;
+		}
+
+		&[data-theme="aqua"] {
+			background-color: $aqua;
+		}
+	}
+}
+

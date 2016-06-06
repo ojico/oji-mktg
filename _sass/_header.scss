@@ -1,21 +1,9 @@
-.visible--feed {
+.visible--frontpage {
 	.header {
-		.corner {
-			border-color: $blue !important;
-		}
-		.header__section {
-			> .section__label {
-				&::before,
-				&::after {
-					border-color: $blue !important;
-				}
-			}
-		}	
-
 		.header__oji {
 			@include transitionEase(all, 0.4s);
 			@include translate(0,-$base*8);
-
+	
 			svg {
 				path {
 				}
@@ -34,7 +22,11 @@
 	position: absolute;
 	top: 0;
 	width: $full/10*7;
-	z-index: 5000;	
+	z-index: 5000;
+
+	@include media-query($on-touch) {
+		width: $full;
+    }	
 
 	.header__oji {
 		@include transitionEase(all, 0.5s);
@@ -44,8 +36,9 @@
 		background-size: $base*5 auto;
 		height: $base*4;
 		left: $full/7;
+		padding: 0 0 0 $base/2;
 		position: absolute;
-		top: 85px;
+		top: 90px;
 		width: $full/7;
 		z-index: 1100;
 
@@ -54,6 +47,12 @@
 				fill: $white; 
 			}
 		}
+
+		@include media-query($on-touch) {
+			left: $full/10;
+			top: $base*3;
+			width: $full/10*3;
+    	}
 	}
 
 	.header__section {
@@ -96,7 +95,6 @@
 				padding: 54px $base/2 0 $base/2;
 
 				.social__badge {
-					background-color: violet;
 					display: block;
 					height: $base;
 					margin-right: $base/2;
@@ -120,7 +118,7 @@
 		}
 	}
 
-	&[data-theme="light"] {
+	&[data-theme="white"] {
 		background-color: red;
 
 		.frame,
@@ -137,6 +135,35 @@
 
 				&::before {
 					border-color: $white;
+				}
+			}
+
+			&.header__social {	
+				.social__wrapper {
+					.social__badge {
+						background-color: transparent;
+					}
+				}
+			}
+		}
+	}
+	&[data-theme="blue"] {
+		background-color: red;
+
+		.frame,
+		.corner {
+			border-color: $blue;
+		}
+
+		.header__section {
+			background-color: transparent;
+	
+			> .section__label {
+				background-color: transparent;
+				color: $blue;
+
+				&::before {
+					border-color: $blue;
 				}
 			}
 

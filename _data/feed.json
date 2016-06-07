@@ -7,7 +7,8 @@
       "source": "NY Times",
       "author": "Erik Olsen",
       "sticky": "false",
-      "date": "2016-03-08T00:00:00Z"
+      "date": "2016-03-08T00:00:00Z",
+      "rtime": "6 minutes"
     },
     {
       "title": "Cuba Reefs: A Last Caribbean Refuge",
@@ -16,7 +17,8 @@
       "source": "National Geographic",
       "author": "Peter Benchley",
       "sticky": "false",
-      "date": "2002-02-01T00:00:00Z"
+      "date": "2002-02-01T00:00:00Z",
+      "rtime": "13 minutes"
     },
     {
       "title": "Diving with Great White Sharks in Mexico",
@@ -25,7 +27,8 @@
       "source": "NY Times",
       "author": "Benjamin Lowy",
       "sticky": "false",
-      "date": "2016-03-29T00:00:00Z"
+      "date": "2016-03-29T00:00:00Z",
+      "rtime": "2 minutes"
     },
     {
       "title": "I trained killer whales at SeaWorld for 12 years. Here’s why I quit",
@@ -34,7 +37,8 @@
       "source": "Vox",
       "author": "John Hargrove",
       "sticky": "false",
-      "date": "2016-03-22T00:00:00Z"
+      "date": "2016-03-22T00:00:00Z",
+      "rtime": "7 minutes"
     },
     {
       "title": "Sea lion pups are starving because their moms are eating ‘junk food’",
@@ -43,7 +47,8 @@
       "source": "Washington Post",
       "author": "Elahe Izadi",
       "sticky": "false",
-      "date": "2016-03-03T00:00:00Z"
+      "date": "2016-03-03T00:00:00Z",
+      "rtime": "2 minutes"
     },
     {
       "title": "Invasive Species Aren’t Always Unwanted",
@@ -52,7 +57,8 @@
       "source": "NY Times",
       "author": "Erica Goode",
       "sticky": "false",
-      "date": "2016-03-01T00:00:00Z"
+      "date": "2016-03-01T00:00:00Z",
+      "rtime": "7 minutes"
     },
     {
       "title": "In the Bahamas, Scuba Diving With James Bond’s Trainer",
@@ -61,7 +67,8 @@
       "source": "NY Times",
       "author": "Edmund Vallance",
       "sticky": "false",
-      "date": "2016-01-24T00:00:00Z"
+      "date": "2016-01-24T00:00:00Z",
+      "rtime": "6 minutes"
     },
     {
       "title": "Palau vs. the Poachers",
@@ -70,7 +77,8 @@
       "source": "NY Times",
       "author": "Ian Urbina",
       "sticky": "false",
-      "date": "2016-02-21T00:00:00Z"
+      "date": "2016-02-21T00:00:00Z",
+      "rtime": "24 minutes"
     },
     {
       "title": "Old Nuclear Fallout Proves Useful for Sea Turtle Clues",
@@ -79,7 +87,8 @@
       "source": "NY Times",
       "author": "Rachel Nuwer",
       "sticky": "false",
-      "date": "2016-01-26T00:00:00Z"
+      "date": "2016-01-26T00:00:00Z",
+      "rtime": "5 minutes"
     },
     {
       "title": "Florida scuba diver says he was sucked into nuclear plant intake pipe",
@@ -88,7 +97,8 @@
       "source": "CNN",
       "author": "Ralph Ellis, Keith Allen",
       "sticky": "false",
-      "date": "2016-03-05T00:00:00Z"
+      "date": "2016-03-05T00:00:00Z",
+      "rtime": "2 minutes"
     },
     {
       "title": "People With Disabilities Swap Their Wheelchairs For Scuba Gear",
@@ -97,7 +107,8 @@
       "source": "Huffington Post",
       "author": "Elyse Wanshel",
       "sticky": "false",
-      "date": "2016-03-25T00:00:00Z"
+      "date": "2016-03-25T00:00:00Z",
+      "rtime": "1 minutes"
     },
     {
       "title": "Coral bleaching, a hot survivor",
@@ -106,7 +117,8 @@
       "source": "Economist",
       "author": "",
       "sticky": "true",
-      "date": "2016-04-29T00:00:00Z"
+      "date": "2016-04-29T00:00:00Z",
+      "rtime": "2 minutes"
     },
     {
       "title": "Scientists Have Discovered a 600-Mile Coral Reef",
@@ -115,7 +127,18 @@
       "source": "The Atlantic",
       "author": "Robinson Meyer",
       "sticky": "true",
-      "date": "2016-04-21T00:00:00Z"
+      "date": "2016-04-21T00:00:00Z",
+      "rtime": "4 minutes"
+    },
+    {
+      "title": "Rescued whale sharks released back into the ocean – in pictures",
+      "url": "http://www.theguardian.com/environment/gallery/2016/jun/06/rescued-whale-sharks-released-back-into-the-ocean-in-pictures",
+      "type": "Article",
+      "source": "The Guardian",
+      "author": "Paul Hilton",
+      "sticky": "true",
+      "date": "2016-06-06T00:00:00Z",
+      "rtime": "1 minutes"
     }
   ]
 }

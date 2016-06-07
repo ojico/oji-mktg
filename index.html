@@ -6,20 +6,81 @@ visible:
 
 <dive class="frontpage" data-theme="aqua">
 	
-	<section class="frontpage__section">
-		<h2 class="text--h2">/ News</h2>
+	<section class="frontpage__section frontpage--news">
+		<h4 class="section__title text--h4">News {{ site.cdn }}</h4>
+		<ul class="entries entries--news">
+			{% for entry in site.data.feed.entries limit:5 %}
+			<li class="entry">
+				<a href="{{ entry.url }}" target="_blank">
+					<h2 class="entry__title text--h2">
+						<span class="entry__label serif">{{ entry.title }}</span>
+						<span class="entry__source small">{{ entry.source }}</span>
+					</h2>
+					<div class="entry__meta">{{ entry.author }}</div>
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
 	</section>
-	<section class="frontpage__section">
-		front
+	<section class="frontpage__section frontpage--video">
+		<h4 class="section__title text--h4">Video</h4>
+		<ul class="entries entries--video">
+			{% for entry in site.data.video.video limit:1 %}
+			<li class="entry entry--large">
+				<a href="{{ entry.url }}" target="_blank" style="background-image: url(https://s3.amazonaws.com/oji-marketing/samples/{{ entry.image }});">
+					<figcaption class="video__label">
+						<h2 class="text--h2">{{ entry.title }}</h2>
+						<span class="text--small">{{ entry.author }}</span>
+					</figcaption>
+					<button type="button" class="btn btn--toggle" data-icon="play">
+    				    <i class="btn__i"></i>
+    				</button>
+				</a>
+			</li>
+			{% endfor %}
+			{% for entry in site.data.video.video limit:2 offset:1 %}
+			<li class="entry">
+				<a href="{{ entry.url }}" target="_blank" style="background-image: url(https://s3.amazonaws.com/oji-marketing/samples/{{ entry.image }});">
+					<figcaption class="video__label">
+						<h2 class="text--h2">{{ entry.title }}</h2>
+						<span class="text--small">{{ entry.author }}</span>
+					</figcaption>
+					<button type="button" class="btn btn--toggle" data-icon="play">
+    				    <i class="btn__i"></i>
+    				</button>
+				</a>
+			</li>
+			{% endfor %}
+			{% for entry in site.data.video.video limit:1 offset:3 %}
+			<li class="entry entry--wide">
+				<a href="{{ entry.url }}" target="_blank" style="background-image: url(https://s3.amazonaws.com/oji-marketing/samples/{{ entry.image }});">
+					<figcaption class="video__label">
+						<h2 class="text--h2">{{ entry.title }}</h2>
+						<span class="text--small">{{ entry.author }}</span>
+					</figcaption>
+					<button type="button" class="btn btn--toggle" data-icon="play">
+    				    <i class="btn__i"></i>
+    				</button>
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
 	</section>
-	<section class="frontpage__section">
-		front
-	</section>
-	<section class="frontpage__section">
-		front
-	</section>
-	<section class="frontpage__section">
-		front
+	<section class="frontpage__section frontpage--long-reads">
+		<h4 class="section__title text--h4">Long Reads</h4>
+		<ul class="entries entries--long-reads">
+			{% for entry in site.data.library.library limit:5 %}
+			<li class="entry">
+				<a href="{{ entry.url }}" target="_blank">
+					<h2 class="entry__title text--h2">
+						<span class="entry__label serif">{{ entry.title }}</span>
+						<span class="entry__source small">{{ entry.source }}</span>
+					</h2>
+					<div class="entry__meta">{{ entry.author }}</div>
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
 	</section>
 
 </section>

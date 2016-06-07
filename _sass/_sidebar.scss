@@ -4,7 +4,6 @@
 
 		&.sidebar--left {
 			@include translate(0,-$full);
-			background-color: rgba(255,0,0,0.5);
 		}
 		&.sidebar--right {
 			@include translate(0,0);

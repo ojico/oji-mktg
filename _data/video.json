@@ -7,7 +7,8 @@
       "source": "NY Times",
       "author": "Erik Olsen",
       "sticky": "true",
-      "date": "2016-03-07T00:00:00Z"
+      "date": "2016-03-07T00:00:00Z",
+      "image": "sample01.jpeg"
     },
     {
       "title": "Diving in Antarctica",
@@ -15,7 +16,8 @@
       "type": "Video",
       "source": "National Geographic",
       "author": "Lisa Trotter",
-      "sticky": "false"
+      "sticky": "false",
+      "image": "sample02.jpeg"
     },
     {
       "title": "Born Like Stars",
@@ -23,7 +25,8 @@
       "type": "Video",
       "source": "Aeon",
       "author": "Brent Hoff",
-      "sticky": "false"
+      "sticky": "false",
+      "image": "sample03.jpeg"
     },
     {
       "title": "Underwater Astonishments",
@@ -32,7 +35,8 @@
       "source": "TED",
       "author": "David Gallo",
       "sticky": "false",
-      "date": "2007-03-01T00:00:00Z"
+      "date": "2007-03-01T00:00:00Z",
+      "image": "sample06.jpeg"
     },
     {
       "title": "Brian Skerry reveals oceans glory and horror",
@@ -41,7 +45,8 @@
       "source": "TED",
       "author": "Brian Skerry",
       "sticky": "false",
-      "date": "2010-04-01T00:00:00Z"
+      "date": "2010-04-01T00:00:00Z",
+      "image": "sample06.jpeg"
     },
     {
       "title": "Robert Ballard: Exploring the oceans",

@@ -139,6 +139,26 @@
       "sticky": "true",
       "date": "2016-06-06T00:00:00Z",
       "rtime": "1 minutes"
+    },
+    {
+      "title": "Great white shark suspected of killing Perth diver to be hunted",
+      "url": "http://www.theguardian.com/environment/2016/jun/06/great-white-shark-suspected-of-killing-perth-diver-to-be-hunted",
+      "type": "Article",
+      "source": "The Guardian",
+      "author": "Paul Hilton",
+      "sticky": "true",
+      "date": "2016-06-05T00:00:00Z",
+      "rtime": "1 minute"
+    },
+    {
+      "title": "Best Protected Great Barrier Reef Corals Are Now Dead",
+      "url": "http://www.scientificamerican.com/article/best-protected-great-barrier-reef-corals-are-now-dead/",
+      "type": "Article",
+      "source": "Scientific American",
+      "author": "John Upton",
+      "sticky": "false",
+      "date": "2016-06-01T00:00:00Z",
+      "rtime": "4 minutes"
     }
   ]
 }

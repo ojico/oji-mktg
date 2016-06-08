@@ -1,7 +1,10 @@
 <header class="header" data-theme="{{ page.header-theme }}">
-	<span class="header__oji">
+	<div class="header__oji">
 		{% include images/oji-origami.svg %}
-	</span>
+	</div>
+	<div class="header__oji--alt">
+		{% include images/oji-origami.svg %}
+	</div>
 
 	<div class="header__section header__title">
 		<h5 class="section__label text--h5 frame--corner"></h5>
@@ -9,10 +12,10 @@
 	<div class="header__section header__about">
 		<span class="section__label frame--line"></span>
     </div>
-	<div class="header__section header__banner">
+	<div class="header__section header__banner hidden">
 		<h5 class="section__label text--h5 frame--line"></h5>
     </div>
-	<div class="header__section header__social">
+	<div class="header__section header__social hidden">
 		<span class="section__label frame--line"></span>
 		<div class="social__wrapper">
 			<a href="#" class="social__badge icn--instagram">{% include images/icn--instagram.svg %}</a>

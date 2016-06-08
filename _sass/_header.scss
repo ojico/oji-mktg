@@ -55,10 +55,38 @@
     	}
 	}
 
+	.header__oji--alt {
+		//background-color: yellow;
+		//border-left: solid $base magenta;
+		//border-top: solid $base*2 lime;
+		left: 0;
+		height: $base*8;
+		position: absolute;
+		padding: $base*2 0 0 $base*2;
+		width: $full/7;
+
+		svg {
+			@include rotate(-90);
+			@include transform-origin(top left);
+			height: $base*2;
+			margin-left: -1px;
+			margin-top: 72px;
+			width: auto;
+
+			path {
+				fill: $blue; 
+			}
+		}
+	}
+
 	.header__section {
 		min-height: $base*2;
 
 		> .section__label {
+		}
+
+		&.hidden {
+			@include translate(0,-$base*4);
 		}
 
 		&.header__title {

@@ -13,6 +13,8 @@
 			overflow-y: scroll;
 
 			.frontpage {
+				@include transitionEase(opacity, 0.6s);
+				opacity: 1;
 			}
 		}
 	}
@@ -37,7 +39,9 @@
 	overflow-y: visible;
 
 	.frontpage {
+		@include transitionEase(opacity, 0.6s);
 		display: block;
+		opacity: 0;
 		padding: $base 0;
 		padding-right: calc(100%/10 - 14px);
 		position: relative;
@@ -56,11 +60,19 @@
 			.entries {
 				border-top: solid 1px $blue;
 				margin-bottom: $base/2;
-				padding: $base/6 0;
+
+				.entries__more {
+					display: none;
+					
+					> a {
+						display: block;
+						line-height: $base*2;
+						padding: 0 $base/2;
+						text-align: right;
+					}
+				}
 
 				.entry {
-					padding: $base $base/2;
-					padding-right: 0;
 					position: relative;
 
 					> a {
@@ -70,17 +82,10 @@
 
 						.entry__label {
 							display: block;
-							float: left;
-							overflow: hidden;
-							text-overflow: ellipsis;
-							white-space: nowrap;
-							width: $large;
+							width: $xlarge;
 						}
-						.entry__source {
-							display: block;
-							float: right;
-							text-align: right;
-							width: $med;
+						.entry__title {
+							margin-bottom: 17px;
 						}
 					}
 				}
@@ -90,14 +95,22 @@
 			&.frontpage--long-reads {
 				.entries {
 					.entry {
-						&::after {
+						padding: 20px 0 19px $base/2;
+
+						&::after,
+						&::before {
 							background-color: $blue;
 							bottom: 0;
 							content:'';
 							height: 1px;
-							left: 0;
 							position: absolute;
 							width: $base;
+						}
+						&::before {
+							left: 0;
+						}
+						&::after {
+							right: 0;
 						}
 					}
 				}
@@ -122,52 +135,66 @@
 						width: 25%;
 
 						> a {
-							//background-blend-mode: lighten;
-							background-color: $blue;
-							background-position: center;
-							background-size: cover;
 							display: block;
 							height: $base*10;
 							position: relative;
 
-							&::after,
-							&::before {
-								background-color: magenta;
-								content:'';
-								display: none;
-								opacity: 0.5;
+							.video__thumb {
+								background-color: $orange;
+								background-position: center;
+								background-size: cover;
+								bottom: $base;
+								left: $base;
 								position: absolute;
-							}
-							&::after {
-								background-color: magenta;
-								bottom: 0;
-								height: $base;
-								left: 0;
 								right: 0;
-								width: $full;
-							}
-							&::before {
-								background-color: magenta;
-								bottom: 0;
-								left: 0;
 								top: 0;
-								width: $base/2;
+
+								&::after {
+									background-image: linear-gradient(
+      									45deg, 
+      									transparent, $blue
+    								);
+    								bottom: 0;
+									content:'';
+									left: 0;
+									height: $full;
+									opacity: 0.35;
+									position: absolute;
+									right: 0;
+									top: 0;
+									width: $full;
+									z-index: 5;
+								}
 							}
 						}
 						.video__label {
-							bottom: 20px;
-							color: $white;
+							background-color: $aqua;
+							bottom: 19px;
+							color: $blue;
 							left: 0;
-							padding: 0;
+							padding-top: 8px;
 							position: absolute;
-							right: 0;
+							right: $base;
+							z-index: 10;
+
+							&::after {
+								background-color: magenta;
+								bottom: 5px;
+								content:'';
+								display: none;
+								height: $base/2;
+								left: 0;
+								opacity: 0.5;
+								position: absolute;
+								width: $full;
+							}
 
 							.text--h2 {
-								margin-bottom: 5px;
-								padding: 0 9px;
+								margin-bottom: $base/2;
+								padding: 0 $base/2 0 22px;
 							}
 							.text--small {
-								padding: 0 11px;
+								padding: 0 $base/2 0 $base;
 							}
 						}
 						.btn {
@@ -178,18 +205,25 @@
 						}
 
 						&.entry--wide {
-							width: 0.75*50%;
+							width: 50%;
 						}
 
 						&.entry--large {
-							height: $base*15;
 							width: 50%;
 
 							> a {
-								height: $base*15;
+								height: $base*20;
 
+								.video__thumb {
+									left: 0;
+								}
 								.video__label {
-									left: 25%;
+									padding-left: 25%;
+
+									.text--h2,
+									.text--small {
+										padding: 0 10px;
+									}
 								}
 								.btn {
 									bottom: $base;

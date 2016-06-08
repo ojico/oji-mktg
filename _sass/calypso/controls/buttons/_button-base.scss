@@ -97,6 +97,30 @@ $btn--height: $base*2;
             }
         }
     }
+    &[data-style="blue"] {
+        background-color: $blue;
+
+        .btn__label {
+            color: $white;
+        }
+        .btn__icn {
+            i {
+                border-color: $white;
+            }
+        }
+    }
+    &[data-style="orange"] {
+        background-color: $orange;
+
+        .btn__label {
+            color: $white;
+        }
+        .btn__icn {
+            i {
+                border-color: $white;
+            }
+        }
+    }
     &[data-style="alert"] {
         background-color: gold;
 

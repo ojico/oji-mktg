@@ -12,10 +12,6 @@
 	height: $med;
 	top: $large;
 
-	.corner {
-		border-color: red;
-	}
-
 	.section__text {
 		bottom: 0;
 		color: $blue;
@@ -44,15 +40,6 @@
 
 		.text--h2 {
 		}
-
-		.border {
-			span {
-				border: solid 1px red;
-				display: inline-block;
-				height: $base/2;
-				width: $base/2;
-			}
-		}
 	}
 
 	.toggle--frontpage {
@@ -67,6 +54,16 @@
 	}
 
 	&[data-theme="aqua"] {
-		
+		.corner {
+			border-color: $blue;
+		}
+		.section__text {
+			color: $blue;
+
+			&::after,
+			&::before {
+				background-color: $blue;
+			}
+		}
 	}
 }

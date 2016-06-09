@@ -159,6 +159,26 @@
       "sticky": "false",
       "date": "2016-06-01T00:00:00Z",
       "rtime": "4 minutes"
+    },
+    {
+      "title": "This disturbing map shows just how much plastic is floating in our oceans",
+      "url": "https://www.weforum.org/agenda/2016/06/this-disturbing-map-shows-just-how-much-plastic-is-floating-in-our-oceans",
+      "type": "Article",
+      "source": "World Economic Forum",
+      "author": "Emma Luxton",
+      "sticky": "false",
+      "date": "2016-06-08T00:00:00Z",
+      "rtime": "1 minute"
+    },
+    {
+      "title": "Nasa to map coral reefs from the air to show impact of climate change",
+      "url": "http://www.theguardian.com/environment/2016/jun/09/nasa-to-map-coral-reefs-from-the-air-to-show-impact-of-climate-change",
+      "type": "Article",
+      "source": "The Guardian",
+      "author": "",
+      "sticky": "false",
+      "date": "2016-06-09T00:00:00Z",
+      "rtime": "3 minutes"
     }
   ]
 }

@@ -1,6 +1,7 @@
 $scuba: orangered;
 
 $white: white;
+$clear: rgba(255,255,255,0.5);
 $black: #222;
 $brown: #ded7cd;
 
@@ -136,7 +137,7 @@ $aqua: #d1efea;
 /**
  * Blue theme, inverted
  */
-[data-theme="blue--invert"] {
+[data-theme="blue-invert"] {
 	background-color: $white;
 	color: $blue;
 
@@ -177,6 +178,37 @@ $aqua: #d1efea;
 	color: $white;
 
 	.section__label {
+		color: $white;
+
+		&.frame--corner::after,
+		&.frame--corner::before {
+			border-color: $white;
+		}
+	}
+	.section__text {
+		color: $white;
+	}
+	.btn {
+		background-color: $white;
+		color: $orange;
+
+		.btn__i {
+			.i {
+			}
+		}
+	}
+	.corner--ne,
+	.corner--nw,
+	.corner--se,
+	.corner--sw {
+		border-color: $white;
+	}
+}
+[data-theme="orange-invert"] {
+	background-color: $black;
+	color: $white;
+
+	.section__label {
 		color: $orange;
 
 		&.frame--corner::after,
@@ -189,7 +221,7 @@ $aqua: #d1efea;
 	}
 	.btn {
 		background-color: $white;
-		color: $blue;
+		color: $orange;
 
 		.btn__i {
 			.i {

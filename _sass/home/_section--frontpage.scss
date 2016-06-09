@@ -1,5 +1,8 @@
 .visible--frontpage {
 	.section--frontpage {
+		@include transitionEase(background-color, 0.7s);
+		background-color: $white;
+
 		.toggle--frontpage {
 			@include transitionEase(all, 0.7s);
 			bottom: -$base*3;

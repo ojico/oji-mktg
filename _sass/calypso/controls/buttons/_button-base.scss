@@ -5,7 +5,6 @@ $btn--height: $base*2;
     @include box-sizing(border-box);
 	@include appearance(none);
     //@include box-shadow(0,3px,12px,rgba(0,0,0,0.15),$inset:false);
-    background-color: $blue;
     border: 0;
     border-radius: 0px;
     cursor: pointer;
@@ -85,27 +84,41 @@ $btn--height: $base*2;
         }
     }
 
-    &[data-style="primary"] {
+    &[data-style="primary"],
+    &[data-theme="green"] {
         background-color: $green;
 
         .btn__label {
             color: $white;
         }
-        .btn__icn {
-            i {
+        .btn__i {
+            .i {
                 border-color: $white;
             }
         }
     }
-    &[data-style="blue"] {
+    &[data-theme="blue"] {
         background-color: $blue;
 
         .btn__label {
             color: $white;
         }
-        .btn__icn {
-            i {
+        .btn__i {
+            .i {
                 border-color: $white;
+            }
+        }
+    }
+    &[data-theme="blue-invert"] {
+        background-color: transparent;
+        border: solid 1px $blue;
+
+        .btn__label {
+            color: $blue;
+        }
+        .btn__i {
+            .i {
+                border-color: $blue;
             }
         }
     }
@@ -115,8 +128,8 @@ $btn--height: $base*2;
         .btn__label {
             color: $white;
         }
-        .btn__icn {
-            i {
+        .btn__i {
+            .i {
                 border-color: $white;
             }
         }
@@ -127,8 +140,8 @@ $btn--height: $base*2;
         .btn__label {
             color: red;
         }
-        .btn__icn {
-            i {
+        .btn__i {
+            .i {
                 border-color: red;
             }
         }
@@ -140,8 +153,8 @@ $btn--height: $base*2;
         .btn__label {
             color: $white;
         }
-        .btn__icn {
-            i {
+        .btn__i {
+            .i {
                 border-color: $white;
             }
         }

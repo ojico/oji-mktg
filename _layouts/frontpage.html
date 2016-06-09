@@ -3,26 +3,31 @@
 
     {% include head.html %}
 
-    <body class="oji--frontpage visible--{{ page.visible }}" data-theme="aqua">
+    <body class="oji--frontpage visible--{{ page.visible }}">
 
     	{% include header.html %}
 
-    	<aside class="sidebar sidebar--left">
-            {% include section--hero.html %}
-            {% include section--frontpage.html %}
-    	</aside>
-
-    	<div class="container">
-            {{ content }}
+        <div class="wrapper">
+    	   <aside class="sidebar sidebar--left">
+                {% include section--hero.html %}
+                {% include section--frontpage.html %}
+    	   </aside>
+    
+            <div class="container">
+                {{ content }}
+            </div>
+            {% include social.html %}
+    
+            <span class="frame frame--w"></span>
+    
+            <aside class="sidebar sidebar--right">
+                {% include section--signup.html %}
+                {% include section--campaign.html %}
+    	   </aside>
         </div>
-        {% include nav--frontpage.html %}
 
-        <span class="frame frame--w"></span>
-
-        <aside class="sidebar sidebar--right">
-            {% include section--signup.html %}
-            {% include section--campaign.html %}
-    	</aside>
+        {% include sidebar--drawer.html %}
+        {% include sidebar--frontpage.html %}
 
         {% include guides.html %}
 	    

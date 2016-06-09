@@ -67,7 +67,8 @@ visible:
 			<li class="entry">
 				<a href="{{ entry.url }}" target="_blank">
 					<h2 class="entry__title text--h2">{{ entry.title }}</h2>
-					<div class="entry__meta">{{ entry.author }} | {{ entry.source }}</div>
+					<div class="entry__meta">{{ entry.author }} | {{ entry.source }} | {{ entry.rtime }}</div>
+					<p class="entry__abstract text">"{{ entry.blurb }}"</p>
 				</a>
 			</li>
 			{% endfor %}

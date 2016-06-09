@@ -9,14 +9,14 @@
 	}
 
 	> .signup__form {
-		border: solid 1px $blue;
+		border: solid 1px $white;
 		height: $base*1.5;
 		margin-bottom: $base;
 		position: relative;
 		width: $xlarge;
 
 		.input {
-			margin: 7px $base/2;
+			margin: 8px $base/2 0 $base/2;
 			width: $full;
 		}
 		.btn {
@@ -24,6 +24,77 @@
 			right: -1px;
 			top: -1px;
 			width: $med;
+
+			.btn__label {
+				color: $orange;
+			}
+		}
+	}
+	&[data-theme="blue-invert"] {
+		> .signup__form {
+			border-color: $green;
+
+			.input {
+				border-color: $green;
+        		color: $green;
+		
+        		@include placeholder {
+        		    color: $green;
+        		}
+			}
+
+			.btn {
+				background-color: $green;
+
+				.btn__label {
+					color: $white;
+				}
+			}
+		}
+	}
+	&[data-theme="orange"] {
+		> .signup__form {
+			border-color: $white;
+			overflow: hidden;
+
+			.input {
+				border-color: $white;
+        		color: $white;
+		
+        		@include placeholder {
+        		    color: $white;
+        		}
+			}
+
+			.btn {
+				background-color: $white;
+
+				.btn__label {
+					color: $orange;
+				}
+			}
+		}
+	}
+	&[data-theme="orange-invert"] {
+		> .signup__form {
+			border-color: $orange;
+			overflow: hidden;
+
+			.input {
+        		color: $white;
+		
+        		@include placeholder {
+        		    color: $white;
+        		}
+			}
+
+			.btn {
+				background-color: $orange;
+
+				.btn__label {
+					color: $white;
+				}
+			}
 		}
 	}
 }

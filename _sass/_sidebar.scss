@@ -1,4 +1,9 @@
 .visible--frontpage {
+	.sidebar--frontpage {
+		@include transitionEase(transform,0.3s);
+		@include translate(0,0);
+		transition-delay: 0.5s;
+	}
 	.sidebar {
 		@include transitionEase(0.5s,all);
 
@@ -10,6 +15,83 @@
 		}
 	}
 }
+.visible--drawer {
+	.wrapper {
+		@include transitionEase(0.5s,all);
+		@include translate($base*8,0);
+	}
+	.sidebar--frontpage {
+		.sidebar__oji {
+			#oji-origami {
+				path {
+					@include transitionEase(0.5s,fill);
+					fill: $white; 
+				}
+			}
+		}
+	}
+	.sidebar {
+		&.sidebar--drawer {
+			@include transitionEase(0.5s,all);
+			@include translate(0,0);
+		}
+		&.sidebar--left {
+		}
+		&.sidebar--right {
+		}
+	}
+}
+
+.sidebar--frontpage {
+	@include transitionEase(all,0.3s);
+	@include translate(-$base*6,0);
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: $base;
+	z-index: 9000;
+
+	&::after,
+	&::before {
+		background-color: lime;
+		content: '';
+		display: none;
+		height: $full;
+		position: absolute;
+		width: 1px;
+	}
+	&::after {
+		left: $base*3;
+	}
+	&::before {
+		left: 24px;
+	}
+
+	.sidebar__oji {
+		height: 50%;
+		left: 0;
+		position: absolute;
+		top: 50%;
+		width: $full;
+
+		#oji-origami {
+			@include rotate(90);
+			@include transform-origin(right bottom);
+			bottom: $base*3-4;
+			height: 47px;
+			position: absolute;
+			right: 0;
+			width: auto;
+			z-index: 9000;
+
+			path {
+				@include transitionEase(0.5s,fill);
+				fill: $blue; 
+			}
+		}
+	}
+}
 
 .sidebar {
 	@include transitionEase(0.5s,all);
@@ -18,6 +100,21 @@
 	top: 0;
 	z-index: 2000;
 
+	&.sidebar--drawer {
+		@include translate(-$base*8,0);
+		background-color: rgba(255,255,255,0.85);
+		background-color: $grey;
+		background-color: $orange;
+		left: 0;
+		width: $base*8;
+		z-index: 5000;
+
+    	.toggle--drawer {
+    		position: absolute;
+    		right: -$base*3;
+    		top: $base;
+    	}	
+	}
 	&.sidebar--left {
 		@include translate(0,0);
 		left: 0;

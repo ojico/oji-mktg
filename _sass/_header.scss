@@ -4,15 +4,21 @@
 			@include transitionEase(all, 0.4s);
 			@include translate(0,-$base*8);
 	
-			svg {
+			#oji-origami {
 				path {
 				}
 			}
 		}
 	}
 }
-
+.visible--drawer {
+	.header {
+		@include transitionEase(0.5s,all);
+		@include translate($base*8,0);
+	}
+}
 .header {
+	@include transitionEase(all, 0.5s);
 	@include flexbox();
 	@include align-content(flex-start);
 	@include align-items(flex-start);
@@ -26,7 +32,7 @@
 
 	@include media-query($on-touch) {
 		width: $full;
-    }	
+    }
 
 	.header__oji {
 		@include transitionEase(all, 0.5s);
@@ -42,7 +48,7 @@
 		width: $full/7;
 		z-index: 1100;
 
-		svg {
+		#oji-origami {
 			path {
 				fill: $white; 
 			}
@@ -53,30 +59,6 @@
 			top: $base*3;
 			width: $full/10*3;
     	}
-	}
-
-	.header__oji--alt {
-		//background-color: yellow;
-		//border-left: solid $base magenta;
-		//border-top: solid $base*2 lime;
-		left: 0;
-		height: $base*8;
-		position: absolute;
-		padding: $base*2 0 0 $base*2;
-		width: $full/7;
-
-		svg {
-			@include rotate(-90);
-			@include transform-origin(top left);
-			height: $base*2;
-			margin-left: -1px;
-			margin-top: 72px;
-			width: auto;
-
-			path {
-				fill: $blue; 
-			}
-		}
 	}
 
 	.header__section {
@@ -108,41 +90,6 @@
 		}
 		&.header__banner {
 			width: $full/7*2;
-		}
-		&.header__social {
-			width: $full/7;
-
-			.social__wrapper {
-				@include flexbox();
-				@include align-content(flex-start);
-				@include align-items(flex-start);
-				@include flex-flow(row nowrap);
-				@include justify-content(flex-start);
-				@include translate(-2px,0);
-				display: none;
-				padding: 54px $base/2 0 $base/2;
-
-				.social__badge {
-					display: block;
-					height: $base;
-					margin-right: $base/2;
-					width: $base;
-
-					&.icn--facebook {
-						@include scale(1.2);
-					}
-
-					svg {
-						height: auto;
-						width: $full;
-
-						path,
-						circle {
-							fill: $white; 
-						}
-					}
-				}
-			}
 		}
 	}
 

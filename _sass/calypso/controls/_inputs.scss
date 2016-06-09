@@ -23,7 +23,7 @@
         line-height: 12px;
         padding: 0px $base/2;
     }
-    &[data-style="primary"] {
+    &[data-theme="primary"] {
         border-color: $green;
         color: $green;
 
@@ -31,12 +31,20 @@
             color: $green;
         }
     }
-    &[data-style="blue"] {
+    &[data-theme="blue"] {
         border-color: $blue;
         color: $blue;
 
         @include placeholder {
             color: $blue;
+        }
+    }
+    &[data-style="white"] {
+        border-color: $white;
+        color: $white;
+
+        @include placeholder {
+            color: $white;
         }
     }
 

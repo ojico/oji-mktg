@@ -1,3 +1,21 @@
+.corner,
+.corner--se,
+.corner--sw,
+.corner--ne,
+.section__label.frame--corner {
+	//border-color: transparent !important;
+	//display: none !important;
+}
+
+.wrapper {
+	@include transitionEase(0.5s,all);
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
 .container {
 	bottom: 0;
 	left: 0;

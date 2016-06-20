@@ -5,15 +5,15 @@ $clear: rgba(255,255,255,0.5);
 $black: #222;
 $brown: #ded7cd;
 
-$grey--light: #EEE;
-$grey: #999;
+$grey--light: #DDD;
+$grey: #666;
 
 $slate1: #b7cdc8;
 $slate2: #9fb2ac;
 $slate3: #809699;
 $slate4: #526d6f;
 
-$brown1: #e4ce9b;
+$brown1: #d8d1ca;
 $brown2: #d8c193;
 $brown3: #caaa77;
 $brown4: #b79257;
@@ -286,20 +286,16 @@ $aqua: #d1efea;
 		}
 	}
 	.section__text {
-		color: $black;
-	}
-	.btn {
-		background-color: $green;
-		color: $white;
-
-		.btn__i {
-			.i {
-				border-color: $white;
-			}
-		}
+		color: $grey;
 	}
 	.frame--se,
 	.frame--sw {
+		border-color: $grey;
+	}
+	.corner--ne,
+	.corner--nw,
+	.corner--se,
+	.corner--sw {
 		border-color: $grey;
 	}
 }

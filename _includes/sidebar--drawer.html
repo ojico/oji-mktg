@@ -1,9 +1,17 @@
-<aside class="sidebar sidebar--drawer">
-	<button type="button" class="btn btn--toggle toggle--drawer" data-theme="blue" data-icon="menu">
-        <i class="btn__i">
-            <span class="i i-1"></span>
-            <span class="i i-3"></span>
-            <span class="i i-2"></span>
-        </i>
+<aside class="sidebar sidebar--drawer" data-theme="grey">
+    <button type="button" class="btn btn--toggle toggle--drawer" data-theme="blue" data-icon="menu">
+        {% include calypso/button__icon.html %}
     </button>
+
+    <a href="#" class="drawer__link text helper helper--next-small">Feed</a>
+    <nav class="menu menu--drawer text--h3" role="navigation">
+    	<a href="#" class="menu__item">News</a>
+    	<a href="#" class="menu__item">Videos</a>
+    	<a href="#" class="menu__item">Long Reads</a>
+    </nav>
+
+    <span class="corner--nw"></span>
+    <span class="corner--ne"></span>
+    <span class="corner--se"></span>
+    <span class="corner--sw"></span>
 </aside>

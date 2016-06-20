@@ -14,7 +14,7 @@
 .visible--drawer {
 	.header {
 		@include transitionEase(0.5s,all);
-		@include translate($base*8,0);
+		@include translate($drawer-width,0);
 	}
 }
 .header {

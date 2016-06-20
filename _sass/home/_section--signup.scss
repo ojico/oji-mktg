@@ -16,7 +16,6 @@
 		width: $xlarge;
 
 		.input {
-			margin: 8px $base/2 0 $base/2;
 			width: $full;
 		}
 		.btn {
@@ -24,10 +23,6 @@
 			right: -1px;
 			top: -1px;
 			width: $med;
-
-			.btn__label {
-				color: $orange;
-			}
 		}
 	}
 	&[data-theme="blue-invert"] {

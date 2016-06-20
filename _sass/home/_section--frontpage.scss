@@ -36,6 +36,7 @@
 		}
 		&::after {
 			bottom: $base/2;
+			display: none;
 		}
 		&::before {
 			top: 0;

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html style="height:100%;">
+
+    {% include head.html %}
+
+    <body class="sandbox">
+
+        <aside class="switch switch--component">
+            <a href="#" class="toggle--switch">{{ page.title }}</a>
+            <ul class="list list--select">
+                <li class="list__item"><a href="/calypso/button--toggle.html">Button Toggle</a></li>
+                <li class="list__item"><a href="/calypso/input.html">Input</a></li>
+            </ul>
+        </aside>
+        
+        {{ content }}
+
+        {% if page.themes %}
+        <aside class="switch switch--style">
+            <ul class="list list--pivot" data-target="theme">
+                {% for state in page.themes %}
+                <li class="list__item" data-theme="{{ state.theme }}">{{ state.theme }}</li>
+                {% endfor %}
+            </ul>
+        </aside>
+        {% endif %}
+
+        {% if page.icons %}
+        <aside class="switch switch--icons">
+            <ul class="list list--pivot" data-target="icon">
+                {% for state in page.icons %}
+                <li class="list__item" data-icon="{{ state.icon }}">{{ state.icon }}</li>
+                {% endfor %}
+            </ul>
+        </aside>
+        {% endif %}
+	    
+    </body>
+
+</html>

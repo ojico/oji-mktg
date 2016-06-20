@@ -1,0 +1,121 @@
+.sandbox {
+	@include flexbox();
+	@include align-content(space-between);
+	@include align-items(space-between);
+	@include flex-flow(column wrap);
+	@include justify-content(space-between);
+	background-color: $grey;
+	height: $full;
+	position: absolute;
+	width: $full;
+
+	.switch {
+		height: 50%;
+		padding: $base/2;
+		width: $base*10;
+		z-index: 99999;
+
+		//&.switch--component {
+		//	left: $base;
+		//	top: $base*0.75;
+		//}
+		//&.switch--style {
+		//	right: $base;
+		//	top: $base*0.75;
+		//}
+		//&.switch--icons {
+		//	bottom: $base*0.75;
+		//	right: $base;
+		//}
+
+		.toggle--switch {
+			background-color: $white;
+			color: $black;
+			border: solid 1px $black;
+			display: block;
+			line-height: $base*1.5;
+			padding: 0 $base/2;
+			position: relative;
+			width: $full;
+
+
+			&::after {
+				@include rotate(-45);
+				@include transform-origin(center);
+				border-bottom: solid 1px $black;
+				border-left: solid 1px $black;
+				//border: solid 1px blue;
+				content:'';
+				height: 8px;
+				position: absolute;
+				right: 14px;
+				top: 10px;
+				width: 8px;
+			}
+		}
+
+		&.visible {
+			.toggle--switch {
+				&::after {
+					@include rotate(-225);
+					top: 15px;
+				}
+			}
+			.list {
+				display: block;
+			}
+		}
+
+		.list {
+			@include box-shadow(0,6px,12px,rgba(0,0,0,0.2),$inset:false);
+			border: solid 1px $black;
+			border-bottom: 0;
+			display: none;
+			width: $full;
+
+			&.list--select {
+				border-top: 0;
+			}
+			&.list--pivot {
+				display: block;
+				top: 0;
+			}
+			.list__item {
+				background-color: $white;
+				border-bottom: solid 1px $black;
+				color: $black;
+				cursor: pointer;
+				display: block;
+				line-height: $base*1.5;
+				padding: 0 $base/2;
+
+				&:hover {
+					background-color: #EEE;
+					cursor: pointer;
+				}
+				&.active {
+					background-color: $green;
+					color: $white;
+				}
+
+				> a {
+					color: $black;
+				}
+			}
+		}
+	}
+
+	.sandbox__canvas {
+		@include flexbox();
+		@include align-content(center);
+		@include align-items(center);
+		@include flex-flow(row nowrap);
+		@include justify-content(center);
+		background-color: $grey;
+		bottom: $base*3;
+		left: $base;
+		position: absolute;
+		right: $base;
+		top: $base*3;
+	}
+}

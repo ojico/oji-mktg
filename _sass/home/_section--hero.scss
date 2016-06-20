@@ -25,7 +25,7 @@
 		@include transitionEase(all, 0.7s);
 		//@include box-shadow(0,2px,$base/3,rgba(0,0,0,0.15),$inset:false);
 		background-color: $orange;
-		background-image: url(/assets/images/hero-alpine.jpg);
+		background-image: url(#{$cdn}oji__hero--coast.jpg);
 		background-position: center bottom;
 		background-size: cover;
 		bottom: -$base*2;

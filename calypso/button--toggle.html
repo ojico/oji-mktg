@@ -1,5 +1,6 @@
 ---
 layout: calypso__sandbox
+target: .btn--toggle
 title: Button Toggle
 url: button--toggle.html
 themes:
@@ -8,6 +9,12 @@ themes:
 - theme: blue-invert
 - theme: orange
 - theme: orange-invert
+- theme: green
+- theme: green-invert
+- theme: black
+- theme: black-invert
+- theme: white
+- theme: white-invert
 icons: 
 - icon: north
 - icon: south
@@ -16,8 +23,26 @@ icons:
 - icon: add
 - icon: close
 - icon: menu
+- icon: menu-alt
+- icon: search
+- icon: share
+- icon: settings
+- icon: grid
+- icon: aside
+- icon: page
+- icon: text
+- icon: image
+- icon: audio
+- icon: draw
+- icon: table
+- icon: link
+- icon: code
+- icon: instagram
+- icon: facebook
+- icon: twitter
+- icon: snapchat
 ---
 
-<button class="btn btn--toggle target" data-icon="" data-theme="">  
-	{% include calypso/button__icon.html %}
+<button class="btn btn--toggle btn--icn" data-icon="" data-theme="">
+	{% include calypso/btn__icons.svg %}
 </button>

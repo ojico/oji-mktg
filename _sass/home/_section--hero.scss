@@ -23,7 +23,7 @@
 
 	.hero__img {
 		@include transitionEase(all, 0.7s);
-		//@include box-shadow(0,2px,$base/3,rgba(0,0,0,0.15),$inset:false);
+		@include box-shadow(0,0,$base/2,rgba(0,0,0,0.15),$inset:false);
 		background-color: $orange;
 		background-image: url(#{$cdn}oji__hero--coast.jpg);
 		background-position: center bottom;
@@ -31,9 +31,9 @@
 		bottom: -$base*2;
 		left: $base*2;
 		position: absolute;
-		right: 0;
+		right: -$base*2;
 		top: $base*5;
-		z-index: 1000;
+		z-index: 5000;
 
 		@include media-query($on-touch) {
 			bottom: -$base;

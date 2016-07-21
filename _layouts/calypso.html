@@ -5,36 +5,59 @@
 
     <body class="sandbox">
 
-        <aside class="switch switch--component">
-            <a href="#" class="toggle--switch">{{ page.title }}</a>
-            <ul class="list list--select">
-                <li class="list__item"><a href="/calypso/button--toggle.html">Button Toggle</a></li>
-                <li class="list__item"><a href="/calypso/input.html">Input</a></li>
-            </ul>
-        </aside>
-        
         {{ content }}
 
-        {% if page.themes %}
-        <aside class="switch switch--style">
-            <ul class="list list--pivot" data-target="theme">
-                {% for state in page.themes %}
-                <li class="list__item" data-theme="{{ state.theme }}">{{ state.theme }}</li>
-                {% endfor %}
-            </ul>
-        </aside>
-        {% endif %}
+        <header class="sandbox__header">
+            <aside class="switch switch--nw">
+                <a href="#" class="toggle--switch">{{ page.title }}</a>
+                <ul class="list list--select">
+                    <li class="list__item"><a href="/calypso/button--toggle.html">Button Toggle</a></li>
+                    <li class="list__item"><a href="/calypso/input.html">Input</a></li>
+                </ul>
+            </aside>
 
-        {% if page.icons %}
-        <aside class="switch switch--icons">
-            <ul class="list list--pivot" data-target="icon">
-                {% for state in page.icons %}
-                <li class="list__item" data-icon="{{ state.icon }}">{{ state.icon }}</li>
-                {% endfor %}
-            </ul>
-        </aside>
-        {% endif %}
-	    
+            <span class="toggle--zoom text--h4">Zoom</span>
+    
+            {% if page.themes %}
+            <aside class="switch switch--ne">
+                <ul class="list list--pivot" data-target="theme">
+                    {% for state in page.themes %}
+                    <li class="list__item" data-theme="{{ state.theme }}">{{ state.theme }}</li>
+                    {% endfor %}
+                </ul>
+            </aside>
+            {% endif %}
+        </header>
+
+        <footer class="sandbox__footer">
+            {% if page.icons %}
+            <aside class="switch switch--sw">
+                <ul class="list list--pivot" data-target="icon">
+                    {% for state in page.icons %}
+                    <li class="list__item" data-icon="{{ state.icon }}">{{ state.icon }}</li>
+                    {% endfor %}
+                </ul>
+            </aside>
+            {% endif %}
+    
+            {% if page.sizes %}
+            <aside class="switch switch--se">
+                <ul class="list list--pivot" data-target="size">
+                    {% for state in page.sizes %}
+                    <li class="list__item" data-size="{{ state.size }}">{{ state.size }}</li>
+                    {% endfor %}
+                </ul>
+            </aside>
+            {% endif %}
+        </footer>
+
+        <span class="sandbox__guide guide--y12" draggable="true">12</span>
+        <span class="sandbox__guide guide--x12" draggable="true">12</span>
+        <span class="sandbox__guide guide--y24" draggable="true">24</span>
+        <span class="sandbox__guide guide--x24" draggable="true">24</span>
+
+        <input type="hidden" class="target" value="{{ page.target }}">
+        
     </body>
 
 </html>

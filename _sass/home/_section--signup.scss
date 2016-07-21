@@ -9,87 +9,21 @@
 	}
 
 	> .signup__form {
-		border: solid 1px $white;
-		height: $base*1.5;
+		border: solid 1px $orange;
+		height: $base*1.5+2;
 		margin-bottom: $base;
 		position: relative;
 		width: $xlarge;
 
 		.input {
+			border: 0;
 			width: $full;
 		}
 		.btn {
 			position: absolute;
-			right: -1px;
-			top: -1px;
+			right: 0;
+			top: 0;
 			width: $med;
-		}
-	}
-	&[data-theme="blue-invert"] {
-		> .signup__form {
-			border-color: $green;
-
-			.input {
-				border-color: $green;
-        		color: $green;
-		
-        		@include placeholder {
-        		    color: $green;
-        		}
-			}
-
-			.btn {
-				background-color: $green;
-
-				.btn__label {
-					color: $white;
-				}
-			}
-		}
-	}
-	&[data-theme="orange"] {
-		> .signup__form {
-			border-color: $white;
-			overflow: hidden;
-
-			.input {
-				border-color: $white;
-        		color: $white;
-		
-        		@include placeholder {
-        		    color: $white;
-        		}
-			}
-
-			.btn {
-				background-color: $white;
-
-				.btn__label {
-					color: $orange;
-				}
-			}
-		}
-	}
-	&[data-theme="orange-invert"] {
-		> .signup__form {
-			border-color: $orange;
-			overflow: hidden;
-
-			.input {
-        		color: $white;
-		
-        		@include placeholder {
-        		    color: $white;
-        		}
-			}
-
-			.btn {
-				background-color: $orange;
-
-				.btn__label {
-					color: $white;
-				}
-			}
 		}
 	}
 }

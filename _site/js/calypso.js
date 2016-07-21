@@ -4,7 +4,8 @@ $(document).ready(function(){
 		$('.switch').toggleClass('visible');
 	});
 
-	var target = $('.target');
+	var target = $('.target').val();
+	console.log(target);
 	$('.list--pivot li').click(function(){
 		var targetAttr = $(this).parent().attr('data-target');
 		console.log(targetAttr);

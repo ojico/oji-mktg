@@ -5,8 +5,9 @@ $clear: rgba(255,255,255,0.5);
 $black: #222;
 $brown: #ded7cd;
 
-$grey--light: #DDD;
-$grey: #666;
+$grey--light: rgb(198,207,212);
+$grey--mid: #999;
+$grey: #777;
 
 $slate1: #b7cdc8;
 $slate2: #9fb2ac;
@@ -275,27 +276,27 @@ $aqua: #d1efea;
  */
 [data-theme="grey"] {
 	background-color: $grey--light;
-	color: $grey;
+	color: $white;
 
 	.section__label {
-		color: $grey;
+		color: $white;
 
 		&::after,
 		&::before {
-			border-color: $grey;
+			border-color: $white;
 		}
 	}
 	.section__text {
-		color: $grey;
+		color: $white;
 	}
 	.frame--se,
 	.frame--sw {
-		border-color: $grey;
+		border-color: $white;
 	}
 	.corner--ne,
 	.corner--nw,
 	.corner--se,
 	.corner--sw {
-		border-color: $grey;
+		border-color: $white;
 	}
 }

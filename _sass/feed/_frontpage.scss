@@ -17,6 +17,12 @@
 				opacity: 1;
 			}
 		}
+		.sidebar--drawer {
+			&::after {
+				@include transitionEase(opacity, 0.6s);
+				opacity: 1;
+			}
+		}
 	}
 }
 

@@ -1,0 +1,91 @@
+<svg id="btn__icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+	<style>
+	  	.canvas{fill:transparent;}
+		.icn__stroke{fill:none;stroke:#000;stroke-miterlimit:10;}
+		.icn__fill{fill:#000;stroke:none;}
+	</style>
+
+	<path id="canvas" class="canvas" d="M0 0h96v96H0z"/>
+
+	<circle class="icn--rings icn__stroke" id="ring__24" cx="48" cy="48" r="12"/>
+	<circle class="icn--rings icn__stroke" id="ring__18" cx="48" cy="48" r="9"/>
+
+	<path class="icn--linesX icn__stroke" id="line__x--n2" d="M36 20h24"/>
+	<path class="icn--linesX icn__stroke" id="line__x--n" d="M36 22h24"/>
+	<path class="icn--linesX icn__stroke" id="line__x--s" d="M36 76h24"/>
+
+	<path class="icn--linesY icn__stroke" id="line__y--w2" d="M20 36v24"/>
+	<path class="icn--linesY icn__stroke" id="line__y--w" d="M22 36v24"/>
+	<path class="icn--linesY icn__stroke" id="line__y--e" d="M76 36v24"/>
+
+	<circle class="icn--dots icn__fill" id="dot__m" cx="48" cy="48" r="2"/>
+	<circle class="icn--dots icn__fill" id="dot__ne" cx="80" cy="16" r="2"/>
+	<circle class="icn--dots icn__fill" id="dot__e" cx="80" cy="48" r="2"/>
+	<circle class="icn--dots icn__fill" id="dot_se" cx="80" cy="80" r="2"/>
+	<circle class="icn--dots icn__fill" id="dot__s" cx="48" cy="80" r="2"/>
+	<circle class="icn--dots icn__fill" id="dot__w" cx="16" cy="48" r="2"/>
+	<circle class="icn--dots icn__fill" id="dot__n" cx="48" cy="16" r="2"/>
+	<circle class="icn--dots icn__fill" id="dot__sw" cx="16" cy="80" r="2"/>
+	<circle class="icn--dots icn__fill" id="dot__nw" cx="16" cy="16" r="2"/>
+
+	<path class="icn--lines45 icn__stroke" id="line__se" d="M74 74l12 12"/>
+	<path class="icn--lines45 icn__stroke" id="line__ne" d="M74 22l12-12"/>
+	<path class="icn--lines45 icn__stroke" id="line__nw" d="M22 22L10 10"/>
+	<path class="icn--lines45 icn__stroke" id="line__sw" d="M22 74L10 86"/>
+
+	<path class="icn--corners icn__stroke" id="corner__ne" d="M64 20h12v12"/>
+	<path class="icn--corners icn__stroke" id="corner__sw" d="M32 76H20V64"/>
+	<path class="icn--corners icn__stroke" id="corner__se" d="M76 64v12H64"/>
+	<path class="icn--corners icn__stroke" id="corner__nw" d="M20 32V20h12"/>
+
+	<path class="icn--corners icn__stroke" id="corner__n" d="M39.52 16.48L48 8l8.48 8.48"/>
+	<path class="icn--corners icn__stroke" id="corner__s" d="M56.48 79.52L48 88l-8.48-8.48"/>
+	<path class="icn--corners icn__stroke" id="corner__e" d="M79.52 39.52L88 48l-8.48 8.48"/>
+	<path class="icn--corners icn__stroke" id="corner__w" d="M16.48 56.48L8 48l8.48-8.48"/>
+
+	<path class="icn--aside icn__stroke" id="aside__frame" d="M36 40h24v16H36z"/>
+	<path class="icn--aside icn__stroke" id="aside__divider" d="M44 40v16"/>
+
+	<path class="icn--settings icn__stroke" id="settings__gear" d="M58.5 48a4.44 4.44 0 0 1 2.5-3.78 13.78 13.78 0 0 0-1.07-2.59 4.19 4.19 0 0 1-4.2-1.37 4.05 4.05 0 0 1-1.06-4.2A13.59 13.59 0 0 0 52.09 35 4.89 4.89 0 0 1 48 37.5a4.9 4.9 0 0 1-4.09-2.5 13.59 13.59 0 0 0-2.59 1.07 4.06 4.06 0 0 1-1.06 4.2 4.19 4.19 0 0 1-4.19 1.37A13.19 13.19 0 0 0 35 44.22 4.43 4.43 0 0 1 37.51 48 4.91 4.91 0 0 1 35 52.09a13.59 13.59 0 0 0 1.07 2.59 4 4 0 0 1 4.19 1.06 4 4 0 0 1 1.06 4.2A13.78 13.78 0 0 0 43.9 61a4.9 4.9 0 0 1 4.1-2.5 4.9 4.9 0 0 1 4.08 2.5 13.59 13.59 0 0 0 2.59-1.07 4.06 4.06 0 0 1 1.06-4.2 4.19 4.19 0 0 1 4.2-1.37A14 14 0 0 0 61 51.78 4.43 4.43 0 0 1 58.5 48z"/>
+  	<circle class="icn--settings icn__stroke" id="settings__ring" cx="48" cy="48" r="6.66"/>
+
+  	<circle class="icn--search icn__stroke" id="search__lens" cx="47" cy="47" r="9"/>
+  	<path class="icn--search icn__stroke" id="search__handle" d="M60 60l-6.64-6.64"/>
+
+  	<path class="icn--share icn__stroke" id="share__outline" d="M37.73 48l17.32-10v20L37.73 48z"/>
+  	<circle class="icn--share icn__stroke" id="share__node--e" cx="18" cy="48" r="4"/>
+  	<circle class="icn--share icn__stroke" id="share__node--n" cx="66" cy="18" r="4"/>
+  	<circle class="icn--share icn__stroke" id="share__node--s" cx="66" cy="78" r="4"/>
+
+ 	<path class="icn--grid icn__stroke" id="grid__x--m" d="M36 48h24"/>
+  	<path class="icn--grid icn__stroke" id="grid__x--s" d="M36 56h24"/>
+  	<path class="icn--grid icn__stroke" id="grid__x--n" d="M36 40h24"/>
+  	<path class="icn--grid icn__stroke" id="grid__y--w" d="M40 36v24"/>
+  	<path class="icn--grid icn__stroke" id="grid__y--e" d="M56 36v24"/>
+  	<path class="icn--grid icn__stroke" id="grid__y--m" d="M48 36v24"/>
+  	
+	<path class="icn--page icn__stroke" id="page__outline" d="M54 36H36v24h24V42l-6-6z"/>
+  	<path class="icn--page icn__stroke" id="page__corner" d="M60 42h-6v-6"/>
+  	<path class="icn--page icn__stroke" id="page__icn--x" d="M42 48h12"/>
+  	<path class="icn--page icn__stroke" id="page__icn--y" d="M48 42v12"/>
+
+	<path class="icn--code icn__fill" id="code__close" d="M44.07 54.07a1.07 1.07 0 0 1-.76-.31l-5-5a1.07 1.07 0 0 1 0-1.52l5-5a1.075 1.075 0 0 1 1.52 1.52L40.59 48l4.24 4.24a1.07 1.07 0 0 1-.76 1.83z"/>
+  	<path class="icn--code icn__fill" id="code__open" d="M51.93 54.07a1.07 1.07 0 0 0 .76-.31l5-5a1.07 1.07 0 0 0 0-1.52l-5-5a1.075 1.075 0 0 0-1.52 1.52L55.41 48l-4.24 4.24a1.07 1.07 0 0 0 .76 1.83z"/>
+
+  	<path class="icn--link icn__fill" id="link__down" d="M53.86 43H53v2.5h.88a1.63 1.63 0 0 1 1.64 1.64v1.67a1.67 1.67 0 0 1-1.64 1.69H48a1.72 1.72 0 0 1-1.69-1.69v-1.64h-2.5v1.64A4.2 4.2 0 0 0 48 53h5.83A4.17 4.17 0 0 0 58 48.81v-1.67A4.12 4.12 0 0 0 53.86 43z"/>
+  	<path class="icn--link icn__fill" id="link__up" d="M51.83 45.5A4.12 4.12 0 0 0 48 43h-5.81A4.17 4.17 0 0 0 38 47.14v1.67A4.21 4.21 0 0 0 42.19 53H43v-2.5h-.8a1.72 1.72 0 0 1-1.69-1.69v-1.67a1.67 1.67 0 0 1 1.69-1.64H48a1.63 1.63 0 0 1 1.64 1.64v1.69h2.5v-1.69a4.18 4.18 0 0 0-.31-1.64z"/>
+  	
+  	<path class="icn--draw icn__stroke" id="draw__square" d="M36 44h16v16H36z"/>
+  	<circle class="icn--draw icn__stroke" id="draw__circle" cx="50" cy="44" r="9"/>
+
+  	<path class="icn--image icn__stroke" id="image__frame" d="M36 39.93h24v16H36z"/>
+  	<path class="icn--image icn__fill" id="image__sun" d="M55 47.93a3 3 0 1 0-3-3 3 3 0 0 0 3 3z"/>
+  	<path class="icn--image icn__fill" id="image__vista" d="M60 56.07l-6.19-6.67A1.07 1.07 0 0 0 53 49a1.23 1.23 0 0 0-.8.36l-1.17 1a1.17 1.17 0 0 1-.72.29 1 1 0 0 1-.69-.26l-.27-.26L46 46.5a1.38 1.38 0 0 0-1-.5 1.42 1.42 0 0 0-1.05.49L36 56.06"/>
+
+  	<path class="icn--text icn__fill" id="text__upper" d="M45.6 50.22h-4.32l-.86 2.62H38l4.11-11.77h2.83l4.17 11.77h-2.65zM43 44.94l-1.09 3.43H45L43.91 45a15.59 15.59 0 0 1-.45-1.72 17.63 17.63 0 0 1-.46 1.66z"/>
+  	<path class="icn--text icn__fill" id="text__lower" d="M50.2 47c.09-1.65 1.4-2.63 3.56-2.63 2.66 0 3.59 1.09 3.59 3.29v2.85c0 .45.14.62.66.62v1.69h-.83c-1.19 0-1.75-.23-2-1.14a2.81 2.81 0 0 1-2.49 1.22c-1.72 0-2.8-.91-2.8-2.45a2.18 2.18 0 0 1 1.25-2.06 9.8 9.8 0 0 1 3.86-.58v-.45A1.15 1.15 0 0 0 53.75 46a1.07 1.07 0 0 0-1.21 1H50.2zm4.8 2.36v-.26a5 5 0 0 0-2.32.45 1 1 0 0 0-.4.83 1 1 0 0 0 1.09 1A1.75 1.75 0 0 0 55 49.36z"/>
+  
+  	<path class="icn--audio icn__fill" id="audio__mic" d="M48 53.22a4.36 4.36 0 0 0 4.23-4.47v-8.28A4.36 4.36 0 0 0 48 36a4.36 4.36 0 0 0-4.23 4.47v8.28A4.36 4.36 0 0 0 48 53.22z"/>
+  	<path class="icn--audio icn__fill" id="audio__stand" d="M53.95 44.57v4.27a5.895 5.895 0 0 1-11.79 0v-4.27h-1v4.27a6.9 6.9 0 0 0 6.43 6.83V59h-3.93v1h8.63v-1h-3.7v-3.33a6.8 6.8 0 0 0 6.27-6.83v-4.27h-.91z"/>
+
+</svg>

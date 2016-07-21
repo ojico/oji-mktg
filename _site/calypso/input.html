@@ -13,7 +13,7 @@
 	<link rel="apple-touch-icon" href="">
 
 	<link rel="stylesheet" href="/css/main.css">
-	<link rel="canonical" href="http://oji.co/calypso/">
+	<link rel="canonical" href="http://oji.co/calypso/input.html">
 	<link rel="alternate" type="application/atom+xml" title="Oji" href="http://oji.co/feed.xml" />
 
 	<script type="text/javascript" src="/js/lib/modernizr.js" ></script>
@@ -30,11 +30,15 @@ mixpanel.init("0ced63a46214fb707901139369b3b6e0");</script>-->
 
     <body class="sandbox">
 
-        
+        <div class="sandbox__canvas">
+
+	<input type="text" class="input" data-size="" placeholder="Placeholder">
+
+</div>
 
         <header class="sandbox__header">
             <aside class="switch switch--nw">
-                <a href="#" class="toggle--switch">Calypso</a>
+                <a href="#" class="toggle--switch">Input</a>
                 <ul class="list list--select">
                     <li class="list__item"><a href="/calypso/button--toggle.html">Button Toggle</a></li>
                     <li class="list__item"><a href="/calypso/input.html">Input</a></li>
@@ -44,11 +48,41 @@ mixpanel.init("0ced63a46214fb707901139369b3b6e0");</script>-->
             <span class="toggle--zoom text--h4">Zoom</span>
     
             
+            <aside class="switch switch--ne">
+                <ul class="list list--pivot" data-target="theme">
+                    
+                    <li class="list__item" data-theme="test">test</li>
+                    
+                    <li class="list__item" data-theme="none">none</li>
+                    
+                    <li class="list__item" data-theme="white">white</li>
+                    
+                    <li class="list__item" data-theme="blue">blue</li>
+                    
+                    <li class="list__item" data-theme="blue-invert">blue-invert</li>
+                    
+                    <li class="list__item" data-theme="orange">orange</li>
+                    
+                    <li class="list__item" data-theme="orange-invert">orange-invert</li>
+                    
+                </ul>
+            </aside>
+            
         </header>
 
         <footer class="sandbox__footer">
             
     
+            
+            <aside class="switch switch--se">
+                <ul class="list list--pivot" data-target="size">
+                    
+                    <li class="list__item" data-size="small">small</li>
+                    
+                    <li class="list__item" data-size="large">large</li>
+                    
+                </ul>
+            </aside>
             
         </footer>
 
@@ -57,7 +91,7 @@ mixpanel.init("0ced63a46214fb707901139369b3b6e0");</script>-->
         <span class="sandbox__guide guide--y24" draggable="true">24</span>
         <span class="sandbox__guide guide--x24" draggable="true">24</span>
 
-        <input type="hidden" class="target" value="">
+        <input type="hidden" class="target" value=".input">
         
     </body>
 

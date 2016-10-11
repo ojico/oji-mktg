@@ -221,24 +221,114 @@
       "rtime": "10 minute"
     },
     {
-      "title": "Australia’s Other Great Reef Is Also Screwed",
-      "url": "http://www.theatlantic.com/science/archive/2016/07/australias-other-great-reef-is-also-screwed/490121/",
+      "title": "10 Female Scuba Divers Who Are Showing The World How It’s Done",
+      "url": "http://www.huffingtonpost.com/entry/10-female-scuba-divers-who-are-showing-the-world-how_us_57f661b3e4b0568704999f7d",
       "type": "Article",
-      "source": "The Atlantic",
-      "author": "Ed Yong",
-      "sticky": "true",
-      "date": "2016-07-07T00:00:00Z",
+      "source": "Huffington Post",
+      "author": "Trisha Velarmino",
+      "sticky": "false",
+      "date": "2016-10-07T00:00:00Z",
       "rtime": "5 minute"
     },
     {
-      "title": "Australia’s Other Great Reef Is Also Screwed",
-      "url": "http://www.theatlantic.com/science/archive/2016/07/australias-other-great-reef-is-also-screwed/490121/",
+      "title": "Scientists triple known types of viruses in world's oceans",
+      "url": "https://www.eurekalert.org/pub_releases/2016-10/osu-stk100416.php",
+      "type": "Article",
+      "source": "Ohio State University",
+      "author": "Misti Crane",
+      "sticky": "false",
+      "date": "2016-10-04T00:00:00Z",
+      "rtime": "3 minute"
+    },
+        {
+      "title": "As oceans warm, coral reef fish might prefer to move rather than adapt",
+      "url": "https://www.sciencedaily.com/releases/2016/10/161005135216.htm",
+      "type": "Article",
+      "source": "University of Texas",
+      "author": "",
+      "sticky": "false",
+      "date": "2016-07-07T00:00:00Z",
+      "rtime": "2 minute"
+    },
+        {
+      "title": "Baby lobsters in hot water as ocean temperatures rise",
+      "url": "https://www.theguardian.com/environment/2016/sep/24/lobsters-climate-change-oceans-marine-life-seafood-research",
+      "type": "Article",
+      "source": "The Guardian",
+      "author": "Associated Press",
+      "sticky": "false",
+      "date": "2016-09-24T00:00:00Z",
+      "rtime": "2 minute"
+    },
+        {
+      "title": "Diving enthusiasts could be used to measure ocean temperatures",
+      "url": "https://www.theguardian.com/environment/2016/jul/22/diving-enthusiasts-could-measure-ocean-temperatures-study-finds",
+      "type": "Article",
+      "source": "The Guardian",
+      "author": "Damian Carrington",
+      "sticky": "false",
+      "date": "2016-07-22T00:00:00Z",
+      "rtime": "2 minute"
+    },
+        {
+      "title": "World Leaders Meet to Protect Oceans",
+      "url": "https://www.scientificamerican.com/article/world-leaders-meet-to-protect-oceans/",
+      "type": "Article",
+      "source": "Scientific American",
+      "author": "Jean Chemnick",
+      "sticky": "false",
+      "date": "2016-09-15T00:00:00Z",
+      "rtime": "5 minute"
+    },
+        {
+      "title": "Global Climate Accord Will Take Effect Wednesday",
+      "url": "https://www.scientificamerican.com/article/global-climate-accord-will-take-effect-wednesday/",
+      "type": "Article",
+      "source": "Scientific American",
+      "author": "Jean Chemnick",
+      "sticky": "true",
+      "date": "2016-07-07T00:00:00Z",
+      "rtime": "8 minute"
+    },
+        {
+      "title": "Obama Warns of Mass Migrations If Climate Change Is Not Confronted",
+      "url": "https://www.scientificamerican.com/article/obama-warns-of-mass-migrations-if-climate-change-is-not-confronted/",
+      "type": "Article",
+      "source": "Scientific American",
+      "author": "Jean Chemnick",
+      "sticky": "fale",
+      "date": "2016-07-07T00:00:00Z",
+      "rtime": "7 minute"
+    },
+        {
+      "title": "President Obama just designated the Atlantic’s first-ever marine monument",
+      "url": "https://medium.com/the-white-house/president-obama-just-designated-the-atlantics-first-ever-marine-monument-c305d8725342#.w2r7s5el6",
+      "type": "Article",
+      "source": "Medium",
+      "author": "The White House",
+      "sticky": "false",
+      "date": "2016-09-15T00:00:00Z",
+      "rtime": "3 minute"
+    },
+        {
+      "title": "The Thirsty Little Snake That Swam Across the World",
+      "url": "http://www.theatlantic.com/science/archive/2016/08/the-thirsty-little-snake-that-swam-across-the-world/496973/",
       "type": "Article",
       "source": "The Atlantic",
       "author": "Ed Yong",
       "sticky": "true",
-      "date": "2016-07-07T00:00:00Z",
-      "rtime": "5 minute"
+      "date": "2016-08-24T00:00:00Z",
+      "rtime": "4 minute"
+    },
+            {
+      "title": "Paralympian accomplishes dream of scuba diving",
+      "url": "http://winnipeg.ctvnews.ca/paralympian-accomplishes-dream-of-scuba-diving-1.3072688",
+      "type": "Article",
+      "source": "CTV News",
+      "author": "Jon Hendricks",
+      "sticky": "false",
+      "date": "2016-09-14T00:00:00Z",
+      "rtime": "1 minute"
     }
   ]
 }

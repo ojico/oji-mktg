@@ -122,6 +122,39 @@
       "rtime": "21 minutes",
       "blurb": "The soul of an Octopus. This piece sheds light on how these incredible creatures are helping scientists grasp the extent of animal intelligence and the meaning of consciousness."
       
+    },
+        {
+      "title": "Rethinking extinction",
+      "url": "https://aeon.co/essays/we-are-not-edging-up-to-a-mass-extinction",
+      "type": "Article",
+      "source": "Aeon",
+      "author": "Stewart Brand",
+      "sticky": "false",
+      "date": "2015-10-21T00:00:00Z",
+      "rtime": "18 minutes",
+      "blurb": "The idea that we are edging up to a mass extinction is not just wrong – it’s a recipe for panic and paralysis"
+    },
+        {
+      "title": "Saving the World's Oceans Is This Marine Biologist's Life Pursuit",
+      "url": "http://news.nationalgeographic.com/2016/09/sylvia-earle-explorer-moments-ocean-conservation/",
+      "type": "Article",
+      "source": "National Geographic",
+      "author": "Gary Strauss",
+      "sticky": "false",
+      "date": "2016-09-28T00:00:00Z",
+      "rtime": "2 minutes",
+      "blurb": "Sylvia Earle, an unstoppable force at 81, wants 20% of Earth's oceans declared protected marine areas by 2020."
+    },
+        {
+      "title": "Natural Aquaculture: Can We Save Oceans by Farming Them?",
+      "url": "http://e360.yale.edu/feature/new_breed_of_ocean_farmer_aims_to_revive_global_seas/3040/",
+      "type": "Article",
+      "source": "Environment360",
+      "author": "Richard Schiffman",
+      "sticky": "true",
+      "date": "2016-10-06T00:00:00Z",
+      "rtime": "8 minutes",
+      "blurb": "A small but growing number of entrepreneurs are creating sea-farming operations that cultivate shellfish together with kelp and seaweed, a combination they contend can restore ecosystems and mitigate the impacts of ocean acidification."
     }
   ]
 }

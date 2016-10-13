@@ -329,6 +329,36 @@
       "sticky": "false",
       "date": "2016-09-14T00:00:00Z",
       "rtime": "1 minute"
+    },
+                {
+      "title": "West Coast oysters are getting drilled by warmer oceans",
+      "url": "http://grist.org/briefly/west-coast-oysters-are-getting-drilled-by-warmer-oceans/",
+      "type": "Article",
+      "source": "Grist",
+      "author": "Amy McDermott",
+      "sticky": "false",
+      "date": "2016-10-11T00:00:00Z",
+      "rtime": "1 minute"
+    },
+                {
+      "title": "University of Southern California Hosts Plastic Bag Ban Summit",
+      "url": "http://dailytrojan.com/2016/10/12/summit-tackles-issue-plastics-ocean/",
+      "type": "Article",
+      "source": "CTV News",
+      "author": "Jon Hendricks",
+      "sticky": "false",
+      "date": "2016-10-13T00:00:00Z",
+      "rtime": "2 minute"
+    },
+                {
+      "title": "Rare Collection of Over 40 Shipwrecks Revealed in Mapping of Black Sea Landscape",
+      "url": "http://www.ancient-origins.net/news-history-archaeology/rare-collection-over-40-shipwrecks-revealed-mapping-black-sea-landscape-021022?nopaging=1",
+      "type": "Article",
+      "source": "Ancient Origins",
+      "author": "April Holloway",
+      "sticky": "false",
+      "date": "2016-10-11T00:00:00Z",
+      "rtime": "2 minute"
     }
   ]
 }

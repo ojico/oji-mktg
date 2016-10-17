@@ -320,7 +320,7 @@
       "date": "2016-08-24T00:00:00Z",
       "rtime": "4 minute"
     },
-            {
+        {
       "title": "Paralympian accomplishes dream of scuba diving",
       "url": "http://winnipeg.ctvnews.ca/paralympian-accomplishes-dream-of-scuba-diving-1.3072688",
       "type": "Article",
@@ -330,7 +330,7 @@
       "date": "2016-09-14T00:00:00Z",
       "rtime": "1 minute"
     },
-                {
+        {
       "title": "West Coast oysters are getting drilled by warmer oceans",
       "url": "http://grist.org/briefly/west-coast-oysters-are-getting-drilled-by-warmer-oceans/",
       "type": "Article",
@@ -340,7 +340,7 @@
       "date": "2016-10-11T00:00:00Z",
       "rtime": "1 minute"
     },
-                {
+        {
       "title": "University of Southern California Hosts Plastic Bag Ban Summit",
       "url": "http://dailytrojan.com/2016/10/12/summit-tackles-issue-plastics-ocean/",
       "type": "Article",
@@ -350,7 +350,7 @@
       "date": "2016-10-13T00:00:00Z",
       "rtime": "2 minute"
     },
-                {
+        {
       "title": "Rare Collection of Over 40 Shipwrecks Revealed in Mapping of Black Sea Landscape",
       "url": "http://www.ancient-origins.net/news-history-archaeology/rare-collection-over-40-shipwrecks-revealed-mapping-black-sea-landscape-021022?nopaging=1",
       "type": "Article",
@@ -360,7 +360,7 @@
       "date": "2016-10-11T00:00:00Z",
       "rtime": "2 minute"
     },
-                    {
+        {
       "title": "Obituary: Great Barrier Reef (25 Million BC-2016)",
       "url": "http://www.outsideonline.com/2112086/obituary-great-barrier-reef-25-million-bc-2016",
       "type": "Article",
@@ -369,6 +369,26 @@
       "sticky": "false",
       "date": "2016-10-11T00:00:00Z",
       "rtime": "5 minutes"
+    },
+        {
+      "title": "Antarctic marine reserves deal within reach as Russia thaws environmental stance",
+      "url": "https://www.theguardian.com/world/2016/oct/17/antarctic-marine-reserves-deal-within-reach-as-russia-thaws-environmental-stance",
+      "type": "Article",
+      "source": "The Guardian",
+      "author": "Michael Slezak",
+      "sticky": "false",
+      "date": "2016-10-17T00:00:00Z",
+      "rtime": "2 minutes"
+    },
+        {
+      "title": "Unmanned gliders to help DFO measure and monitor oceans",
+      "url": "http://www.cbc.ca/news/canada/nova-scotia/unmanned-gliders-ocean-dfo-fisheries-research-1.3778654",
+      "type": "Article",
+      "source": "CBC",
+      "author": "Brett Ruskin",
+      "sticky": "false",
+      "date": "2016-09-26T00:00:00Z",
+      "rtime": "2 minutes"
     }
   ]
 }

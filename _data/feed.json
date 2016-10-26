@@ -412,13 +412,43 @@
     },
         {
       "title": "Melanesia’s Ocean Worth Half a Trillion USD but Under Pressure",
-      "url": "http://wwf.panda.org/wwf_news/?uNewsID=281490",
+      "url": "https://www.eurekalert.org/pub_releases/2016-10/uoea-ssu102516.php",
       "type": "Article",
       "source": "WWF",
       "author": "",
       "sticky": "false",
       "date": "2016-10-17T00:00:00Z",
       "rtime": "2 minutes"
+    },
+            {
+      "title": "Species speed up adaptation to beat effects of warmer oceans",
+      "url": "http://wwf.panda.org/wwf_news/?uNewsID=281490",
+      "type": "Article",
+      "source": "University of East Anglia",
+      "author": "",
+      "sticky": "false",
+      "date": "2016-10-25T00:00:00Z",
+      "rtime": "3 minutes"
+    },
+            {
+      "title": "The one thing everyone knows about swordfish is wrong",
+      "url": "http://www.bbc.com/earth/story/20161025-the-one-thing-everyone-knows-about-swordfish-is-wrong",
+      "type": "Article",
+      "source": "BBC",
+      "author": "Colin Barras",
+      "sticky": "false",
+      "date": "2016-10-25T00:00:00Z",
+      "rtime": "7 minutes"
+    },
+                {
+      "title": "Why glaciers in West Antarctica may determine the future of your city",
+      "url": "http://mashable.com/2016/10/25/west-antarctica-ice-melt/#an3x7w0Gtqqz",
+      "type": "Article",
+      "source": "Mashable",
+      "author": "Andrew Freedman",
+      "sticky": "false",
+      "date": "2016-10-25T00:00:00Z",
+      "rtime": "4 minutes"
     }
   ]
 }

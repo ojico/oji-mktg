@@ -161,7 +161,16 @@
       "source": "Daily Mail",
       "author": "",
       "sticky": "false",
-      "date": "2016-010-24T00:00:00Z"
+      "date": "2016-10-24T00:00:00Z"
+    },
+         {
+      "title": "Naomi Klein at the Great Barrier Reef: what have we left for our children?",
+      "url": "https://www.theguardian.com/environment/video/2016/nov/07/naomi-klein-at-the-great-barrier-reef-under-the-surface",
+      "type": "Video",
+      "source": "The Guardian",
+      "author": "Naomi Klein and Josh Wall",
+      "sticky": "true",
+      "date": "2016-11-07T00:00:00Z"
     }
   ]
 }

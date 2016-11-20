@@ -155,6 +155,17 @@
       "date": "2016-10-06T00:00:00Z",
       "rtime": "8 minutes",
       "blurb": "A small but growing number of entrepreneurs are creating sea-farming operations that cultivate shellfish together with kelp and seaweed, a combination they contend can restore ecosystems and mitigate the impacts of ocean acidification."
+    }, 
+        {
+      "title": "Unfathomable",
+      "url": "http://unfathomable.epicmagazine.com",
+      "type": "Article",
+      "source": "Epic Magazine",
+      "author": "James Nestor",
+      "sticky": "true",
+      "date": "2016-10-06T00:00:00Z",
+      "rtime": "25 minutes",
+      "blurb": "Sunken treasure, death defying adventure, sibling rivalry: How Charles and John Deane invented modern deep-sea diving and saved the British Empire."
     }
   ]
 }

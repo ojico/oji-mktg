@@ -1,22 +1,3 @@
-.visible--frontpage {
-	.header {
-		.header__oji {
-			@include transitionEase(all, 0.4s);
-			@include translate(0,-$base*8);
-	
-			#oji-origami {
-				path {
-				}
-			}
-		}
-	}
-}
-.visible--drawer {
-	.header {
-		@include transitionEase(0.5s,all);
-		@include translate($drawer-width,0);
-	}
-}
 .header {
 	@include transitionEase(all, 0.5s);
 	@include flexbox();
@@ -30,6 +11,12 @@
 	width: $full/10*7;
 	z-index: 5000;
 
+	&.state--hidden {
+		@include translate(0,-$base*8);
+	}
+	&.state--shift-right {
+		@include translate($drawer-width,0);
+	}
 	@include media-query($on-touch) {
 		width: $full;
     }

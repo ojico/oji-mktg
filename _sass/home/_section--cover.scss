@@ -1,19 +1,15 @@
-.visible--frontpage {
-	.section--frontpage {
-		@include transitionEase(background-color, 0.7s);
-		background-color: $white;
-
-		.toggle--frontpage {
-			@include transitionEase(all, 0.7s);
-			bottom: -$base*3;
-		}
-	}
-}
-
-.section--frontpage {
+.section--cover {
 	@include transitionEase(all, 0.5s);
 	height: $med;
 	top: $large;
+
+	&.state--visible {
+
+    }
+    &.state--hidden {
+		@include translate(0,-$full);
+		background-color: transparent;
+    }
 
 	.section__text {
 		bottom: 0;

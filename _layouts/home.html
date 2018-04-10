@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html style="height:100%;">
+
+    {% include head.html %}
+
+    <body class="oji--home visible--{{ page.visible }}">
+
+    	{% include header.html %}
+
+        <div class="wrapper">
+    	   <aside class="container container--left">
+                {% include section--hero.html %}
+                {% include section--cover.html %}
+    	   </aside>
+    
+            <div class="container container--channels state--hidden">
+                {{ content }}
+            </div>
+    
+            <aside class="container container--right">
+                {% include section--signup.html %}
+                {% include section--campaign.html %}
+    	   </aside>
+        </div>
+
+        {% include drawer.html %}
+        {% include social.html %}
+
+        {% include guides.html %}
+	    
+    </body>
+
+</html>

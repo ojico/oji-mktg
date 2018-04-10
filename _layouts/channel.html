@@ -3,27 +3,24 @@
 
     {% include head.html %}
 
-    <body class="oji--frontpage visible--{{ page.visible }}">
+    <body class="oji--channel visible--{{ page.visible }}">
 
     	{% include header.html %}
 
         <div class="wrapper">
-    	   <aside class="sidebar sidebar--left">
-                {% include section--hero.html %}
-                {% include section--frontpage.html %}
-    	   </aside>
-    
-            <div class="container">
+
+            <div class="container container--channels">
                 {{ content }}
             </div>
     
-            <aside class="sidebar sidebar--right">
+            <aside class="container container--right">
                 {% include section--signup.html %}
                 {% include section--campaign.html %}
     	   </aside>
+           
         </div>
 
-        {% include sidebar--drawer.html %}
+        {% include drawer.html %}
         {% include social.html %}
 
         {% include guides.html %}

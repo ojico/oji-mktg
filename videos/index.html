@@ -1,0 +1,48 @@
+---
+layout: channel
+header-theme: white
+visible: 
+---
+
+<section class="channels">
+	
+	<section class="channel channel--video">
+		<h4 class="channel__title text--h4">Videos</h4>
+		<ul class="entries entries--video">
+			{% for entry in site.data.video.video limit:1 %}
+			<li class="entry entry--large">
+				<a href="{{ entry.url }}" target="_blank">
+					<figure class="video__thumb" style="background-image: url(https://s3.amazonaws.com/oji-marketing/samples/{{ entry.image }});"></figure>
+					<figcaption class="video__label">
+						<h2 class="text--h2">{{ entry.title }}</h2>
+						<p class="text--small">{{ entry.author }} | {{ entry.source }}</p>
+					</figcaption>
+				</a>
+			</li>
+			{% endfor %}
+			{% for entry in site.data.video.video limit:2 offset:1 %}
+			<li class="entry">
+				<a href="{{ entry.url }}" target="_blank">
+					<figure class="video__thumb" style="background-image: url(https://s3.amazonaws.com/oji-marketing/samples/{{ entry.image }});"></figure>
+					<figcaption class="video__label">
+						<h2 class="text--h2">{{ entry.title }}</h2>
+						<p class="text--small">{{ entry.author }} | {{ entry.source }}</p>
+					</figcaption>
+				</a>
+			</li>
+			{% endfor %}
+			{% for entry in site.data.video.video limit:1 offset:3 %}
+			<li class="entry entry--wide">
+				<a href="{{ entry.url }}" target="_blank">
+					<figure class="video__thumb" style="background-image: url(https://s3.amazonaws.com/oji-marketing/samples/{{ entry.image }});"></figure>
+					<figcaption class="video__label">
+						<h2 class="text--h2">{{ entry.title }}</h2>
+						<p class="text--small">{{ entry.author }} | {{ entry.source }}</p>
+					</figcaption>
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</section>
+
+</section>

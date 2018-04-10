@@ -1,81 +1,77 @@
 ---
-layout: frontpage
+layout: break
 header-theme: white
 visible: 
 ---
-
-<dive class="frontpage" data-theme="aqua">
 	
-	<section class="frontpage__section frontpage--news">
-		<h4 class="section__title text--h4">News</h4>
-		<ul class="entries entries--news">
-			{% for entry in site.data.feed.entries limit:5 %}
-			<li class="entry">
-				<a href="{{ entry.url }}" target="_blank">
-					<h2 class="entry__title text--h2">{{ entry.title }}</h2>
-					<div class="entry__meta">{{ entry.author }} | {{ entry.source }}</div>
-				</a>
-			</li>
-			{% endfor %}
-			<li class="entries__more">
-				<a href="#" class="text">Show More</a>
-			</li>
-		</ul>
-	</section>
-	<section class="frontpage__section frontpage--video">
-		<h4 class="section__title text--h4">Video</h4>
-		<ul class="entries entries--video">
-			{% for entry in site.data.video.video limit:1 %}
-			<li class="entry entry--large">
-				<a href="{{ entry.url }}" target="_blank">
-					<figure class="video__thumb" style="background-image: url(https://s3.amazonaws.com/oji-marketing/samples/{{ entry.image }});"></figure>
-					<figcaption class="video__label">
-						<h2 class="text--h2">{{ entry.title }}</h2>
-						<p class="text--small">{{ entry.author }} | {{ entry.source }}</p>
-					</figcaption>
-				</a>
-			</li>
-			{% endfor %}
-			{% for entry in site.data.video.video limit:2 offset:1 %}
-			<li class="entry">
-				<a href="{{ entry.url }}" target="_blank">
-					<figure class="video__thumb" style="background-image: url(https://s3.amazonaws.com/oji-marketing/samples/{{ entry.image }});"></figure>
-					<figcaption class="video__label">
-						<h2 class="text--h2">{{ entry.title }}</h2>
-						<p class="text--small">{{ entry.author }} | {{ entry.source }}</p>
-					</figcaption>
-				</a>
-			</li>
-			{% endfor %}
-			{% for entry in site.data.video.video limit:1 offset:3 %}
-			<li class="entry entry--wide">
-				<a href="{{ entry.url }}" target="_blank">
-					<figure class="video__thumb" style="background-image: url(https://s3.amazonaws.com/oji-marketing/samples/{{ entry.image }});"></figure>
-					<figcaption class="video__label">
-						<h2 class="text--h2">{{ entry.title }}</h2>
-						<p class="text--small">{{ entry.author }} | {{ entry.source }}</p>
-					</figcaption>
-				</a>
-			</li>
-			{% endfor %}
-		</ul>
-	</section>
-	<section class="frontpage__section frontpage--long-reads">
-		<h4 class="section__title text--h4">Long Reads</h4>
-		<ul class="entries entries--long-reads">
-			{% for entry in site.data.library.library limit:5 %}
-			<li class="entry">
-				<a href="{{ entry.url }}" target="_blank">
-					<h2 class="entry__title text--h2">{{ entry.title }}</h2>
-					<div class="entry__meta">{{ entry.author }} | {{ entry.source }} | {{ entry.rtime }}</div>
-					<p class="entry__abstract text">"{{ entry.blurb }}"</p>
-				</a>
-			</li>
-			{% endfor %}
-			<li class="entries__more">
-				<a href="#" class="text">Show More</a>
-			</li>
-		</ul>
-	</section>
-
+<section class="channel channel--news">
+	<h4 class="channel__title text--h4">News</h4>
+	<ul class="entries entries--news">
+		{% for entry in site.data.feed.entries limit:5 %}
+		<li class="entry">
+			<a href="{{ entry.url }}" target="_blank">
+				<h2 class="entry__title text--h2">{{ entry.title }}</h2>
+				<div class="entry__meta">{{ entry.author }} | {{ entry.source }}</div>
+			</a>
+		</li>
+		{% endfor %}
+		<li class="entries__more">
+			<a href="#" class="text">Show More</a>
+		</li>
+	</ul>
+</section>
+<section class="channel channel--video">
+	<h4 class="channel__title text--h4">Videos</h4>
+	<ul class="entries entries--video">
+		{% for entry in site.data.video.video limit:1 %}
+		<li class="entry entry--large">
+			<a href="{{ entry.url }}" target="_blank">
+				<figure class="video__thumb" style="background-image: url(https://s3.amazonaws.com/oji-marketing/samples/{{ entry.image }});"></figure>
+				<figcaption class="video__label">
+					<h2 class="text--h2">{{ entry.title }}</h2>
+					<p class="text--small">{{ entry.author }} | {{ entry.source }}</p>
+				</figcaption>
+			</a>
+		</li>
+		{% endfor %}
+		{% for entry in site.data.video.video limit:2 offset:1 %}
+		<li class="entry">
+			<a href="{{ entry.url }}" target="_blank">
+				<figure class="video__thumb" style="background-image: url(https://s3.amazonaws.com/oji-marketing/samples/{{ entry.image }});"></figure>
+				<figcaption class="video__label">
+					<h2 class="text--h2">{{ entry.title }}</h2>
+					<p class="text--small">{{ entry.author }} | {{ entry.source }}</p>
+				</figcaption>
+			</a>
+		</li>
+		{% endfor %}
+		{% for entry in site.data.video.video limit:1 offset:3 %}
+		<li class="entry entry--wide">
+			<a href="{{ entry.url }}" target="_blank">
+				<figure class="video__thumb" style="background-image: url(https://s3.amazonaws.com/oji-marketing/samples/{{ entry.image }});"></figure>
+				<figcaption class="video__label">
+					<h2 class="text--h2">{{ entry.title }}</h2>
+					<p class="text--small">{{ entry.author }} | {{ entry.source }}</p>
+				</figcaption>
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+</section>
+<section class="channel channel--long-reads">
+	<h4 class="channel__title text--h4">Long Reads</h4>
+	<ul class="entries entries--long-reads">
+		{% for entry in site.data.library.library limit:5 %}
+		<li class="entry">
+			<a href="{{ entry.url }}" target="_blank">
+				<h2 class="entry__title text--h2">{{ entry.title }}</h2>
+				<div class="entry__meta">{{ entry.author }} | {{ entry.source }} | {{ entry.rtime }}</div>
+				<p class="entry__abstract text">"{{ entry.blurb }}"</p>
+			</a>
+		</li>
+		{% endfor %}
+		<li class="entries__more">
+			<a href="#" class="text">Show More</a>
+		</li>
+	</ul>
 </section>

@@ -1,0 +1,62 @@
+.oji--home {
+	overflow: hidden;
+}
+
+.container {
+	bottom: 0;
+	position: absolute;
+	top: 0;
+	z-index: 2000;
+
+	&.container--left {
+		@include transitionEase(all, 0.7s);
+		left: 0;
+		width: $full*7/10;
+
+		&.state--visible {
+			@include translate(0,0);
+		}
+		&.state--hidden {
+			@include translate(0,-$full);
+
+			.section--cover {
+				background-color: transparent;
+
+				.toggle--frontpage {
+					@include transitionEase(all, 0.5s);
+					@include translate(0,$base*4);
+				}
+			}
+		}
+
+		@include media-query($on-touch) {
+			width: $full;
+    	}
+	}
+
+	&.container--right {
+		opacity: 1;
+		right: 0;
+		width: $full*3/10;
+
+		@include media-query($on-touch) {
+			display: none;
+    	}
+	}
+
+	&.container--channels {
+		@include transitionEase(all, 0.7s);
+		left: 0;
+		right: 0;
+		top: 0;
+		z-index: 1000;
+
+		&.state--visible {
+			@include translate(0,0);
+			overflow-y: scroll;
+		}
+		&.state--hidden{
+			@include translate(0,$full);
+		}
+	}
+}

@@ -30,11 +30,15 @@ $cdn: "https://s3.amazonaws.com/oji-marketing/";
     "layout",
     "splash",
     "sidebar",
-    "header",
+    "home/layout--home",
     "home/section--hero",
-    "home/section--frontpage",
+    "home/section--cover",
     "home/section--signup",
     "home/section--campaign",
-    "feed/frontpage",
-    "feed/entries"
+    "feed/channels",
+    "feed/entries",
+    "components/header",
+    "components/social",
+    "components/menu",
+    "components/drawer"
 ;

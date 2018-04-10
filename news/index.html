@@ -1,0 +1,26 @@
+---
+layout: channel
+header-theme: white
+visible: 
+---
+
+<section class="channels">
+	
+	<section class="channel channel--news">
+		<h4 class="channel__title text--h4">News</h4>
+		<ul class="entries entries--news">
+			{% for entry in site.data.feed.entries %}
+			<li class="entry">
+				<a href="{{ entry.url }}" target="_blank">
+					<h2 class="entry__title text--h2">{{ entry.title }}</h2>
+					<div class="entry__meta">{{ entry.author }} | {{ entry.source }}</div>
+				</a>
+			</li>
+			{% endfor %}
+			<li class="entries__more">
+				<a href="#" class="text">Show More</a>
+			</li>
+		</ul>
+	</section>
+
+</section>
